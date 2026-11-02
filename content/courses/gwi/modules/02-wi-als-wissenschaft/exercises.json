@@ -1,0 +1,260 @@
+[
+  {
+    "id": "recall-zwei-ziele-wi",
+    "type": "recall",
+    "title": "Ziele der WI",
+    "difficulty": 1,
+    "prompt": "Nennen und erläutern Sie **zwei wissenschaftliche Ziele der Wirtschaftsinformatik** nach der GI-Empfehlung 2017. *(4 Punkte)*",
+    "modelAnswer": "- **(b) Gestaltungsorientierte Konstruktion von IS** sowie (Weiter-)Entwicklung von Konzepten, Vorgehensweisen, Modellen, Methoden, Werkzeugen und (Modellierungs-)Sprachen.\n- **(d) Wirtschaftswissenschaftlich fundierte Bewertung** von Risiko-, Nutzen- und Wirtschaftlichkeitsdimensionen bei Gestaltung und Einsatz von IS sowie ihrer strategischen und organisatorischen Auswirkungen.\n\nWeitere: (a) Theorien/Methoden/Werkzeuge für intersubjektiv überprüfbare Erkenntnisse, (c) realwissenschaftliches Verständnis von Einsatz/Akzeptanz/Management, (e) Prognose.",
+    "rubric": [
+      "Erstes Ziel korrekt benannt",
+      "Erstes Ziel inhaltlich erläutert",
+      "Zweites Ziel korrekt benannt",
+      "Zweites Ziel inhaltlich erläutert"
+    ],
+    "explanation": "Die Vorlesung verlangt ausdrücklich **mindestens zwei** Ziele. Merkhilfe für alle fünf: **T-K-V-B-P** (Theorien, Konstruktion, Verständnis, Bewertung, Prognose)."
+  },
+  {
+    "id": "match-ziele-wi",
+    "type": "match",
+    "title": "Ziele der WI erkennen",
+    "difficulty": 2,
+    "prompt": "Welches Ziel der WI verfolgt das jeweilige Forschungsvorhaben?",
+    "pairs": [
+      {
+        "left": "Eine neue Modellierungssprache für KI-gestützte Geschäftsprozesse entwickeln",
+        "right": "(b) Gestaltungsorientierte Konstruktion"
+      },
+      {
+        "left": "Untersuchen, warum Mitarbeitende ein neues ERP-System nicht akzeptieren",
+        "right": "(c) Realwissenschaftliches Verständnis"
+      },
+      {
+        "left": "Den Return on Investment einer Cloud-Migration ermitteln",
+        "right": "(d) Wirtschaftswissenschaftliche Bewertung"
+      },
+      {
+        "left": "Abschätzen, wie sich Quantencomputing bis 2035 auf Banken auswirkt",
+        "right": "(e) Prognose"
+      },
+      {
+        "left": "Eine Methode entwickeln, mit der Ergebnisse über IS intersubjektiv überprüfbar werden",
+        "right": "(a) Theorien, Methoden, Werkzeuge"
+      }
+    ],
+    "explanation": "Achte auf die Schlüsselwörter: **bauen/entwickeln** → Konstruktion; **Akzeptanz/Verhalten** → Verständnis; **Nutzen/Kosten/Risiko** → Bewertung; **Zukunft** → Prognose; **überprüfbare Erkenntnis** → Theorien/Methoden."
+  },
+  {
+    "id": "match-is-wi",
+    "type": "match",
+    "title": "IS oder WI?",
+    "difficulty": 1,
+    "prompt": "Ordne die Merkmale dem passenden Paradigma zu.",
+    "pairs": [
+      {
+        "left": "verhaltensorientiert, quantitativ-empirisch, Leitwert Rigor, angloamerikanisch",
+        "right": "Information Systems"
+      },
+      {
+        "left": "gestaltungsorientiert, Design-Theorien, Leitwert Relevance, deutschsprachig",
+        "right": "Wirtschaftsinformatik"
+      },
+      {
+        "left": "anwendungsorientiert, IS im betrieblichen Kontext als Gegenstand",
+        "right": "Gemeinsamkeit beider Paradigmen"
+      }
+    ],
+    "explanation": "**IS** (angloamerikanisch) erklärt bestehende Phänomene empirisch → Rigor. **WI** (deutschsprachig) entwickelt nützliche Artefakte → Relevance. Gemeinsam: anwendungsorientiert, IS im Organisationskontext."
+  },
+  {
+    "id": "recall-is-vs-wi",
+    "type": "recall",
+    "title": "Paradigmenvergleich",
+    "difficulty": 2,
+    "prompt": "Vergleichen Sie die Paradigmen **Information Systems** und **Wirtschaftsinformatik** anhand von vier Dimensionen und nennen Sie ihre Gemeinsamkeiten. *(8 Punkte)*",
+    "modelAnswer": "| Dimension | Information Systems | Wirtschaftsinformatik |\n|---|---|---|\n| Ausrichtung | verhaltensorientiert (behavioristisch) | anwendungs-/gestaltungsorientiert (konstruktiv) |\n| Sprachraum | angloamerikanisch | deutsch/europäisch |\n| Ziel | kausale/erklärende/vorhersagende Beziehungen zwischen existierenden IS-Phänomenen | innovative, nützliche, übertragbare Lösungen für IS-Gestaltungsprobleme |\n| Methoden | quantitativ, empirisch | qualitativ, Design-Theorien |\n| Leitwert | Rigor | Relevance |\n\n**Gemeinsamkeiten:** beide anwendungsorientiert; beide untersuchen IS im betrieblichen/organisationalen Kontext.",
+    "rubric": [
+      "Ausrichtung verhaltens- vs. gestaltungsorientiert",
+      "Sprachraum angloamerikanisch vs. deutsch",
+      "Ziel erklären vs. Lösungen gestalten",
+      "Methoden quantitativ/empirisch vs. qualitativ/Design",
+      "Rigor vs. Relevance",
+      "Gemeinsamkeiten genannt"
+    ],
+    "explanation": "Eine Tabelle ist die effizienteste Antwortform. Ergänze ein Forschungsbeispiel (CRM-Nutzung = IS; neuronales Netz zur Restwertprognose = WI) für Zusatzpunkte."
+  },
+  {
+    "id": "mcq-forschungsbeispiel",
+    "type": "mcq",
+    "title": "Forschungsbeispiel einordnen",
+    "difficulty": 2,
+    "prompt": "Ein Forschungsteam befragt 800 Bankangestellte, um zu messen, wie stark wahrgenommene Nützlichkeit und Vertrauen die Nutzung eines neuen KI-Assistenten beeinflussen. Welchem Paradigma entspricht das am ehesten?",
+    "options": [
+      {
+        "text": "Information Systems (verhaltensorientiert, empirisch)",
+        "correct": true,
+        "why": "Kausale Zusammenhänge bei bestehender Nutzung werden quantitativ untersucht."
+      },
+      {
+        "text": "Wirtschaftsinformatik (gestaltungsorientiert)",
+        "correct": false,
+        "why": "Es wird kein neues Artefakt entwickelt, sondern bestehendes Verhalten erklärt."
+      },
+      {
+        "text": "Formalwissenschaft",
+        "correct": false,
+        "why": "Eine Befragung ist empirische Realwissenschaft."
+      },
+      {
+        "text": "Ingenieurwissenschaft",
+        "correct": false,
+        "why": "Es wird nichts konstruiert."
+      }
+    ],
+    "explanation": "Typische IS-Themen: Akzeptanz, wahrgenommene Nützlichkeit, Vertrauen – **quantitativ-empirisch**. Würde das Team stattdessen einen besseren KI-Assistenten bauen und evaluieren, wäre das WI (gestaltungsorientiert)."
+  },
+  {
+    "id": "match-guetekriterien",
+    "type": "match",
+    "title": "Gütekriterien empirischer Forschung",
+    "difficulty": 1,
+    "prompt": "Ordne jedem Gütekriterium seine Bedeutung zu.",
+    "pairs": [
+      {
+        "left": "Objektivität",
+        "right": "Ergebnisse sind unabhängig vom Forscher nachprüfbar"
+      },
+      {
+        "left": "Reliabilität",
+        "right": "Wiederholte Messungen liefern gleiche Ergebnisse (Zuverlässigkeit)"
+      },
+      {
+        "left": "Validität",
+        "right": "Es wird gemessen, was gemessen werden soll (Gültigkeit)"
+      }
+    ],
+    "explanation": "Objektivität = Nachprüfbarkeit, Reliabilität = Zuverlässigkeit, Validität = Gültigkeit. Ein Test kann reliabel, aber nicht valide sein (misst zuverlässig das Falsche)."
+  },
+  {
+    "id": "order-geschichte-wi",
+    "type": "order",
+    "title": "Zeitstrahl der WI",
+    "difficulty": 2,
+    "prompt": "Bringe die Ereignisse der WI-Geschichte in die **chronologische Reihenfolge**.",
+    "items": [
+      "Erste größere EDV-Anwendung in Wirtschaft und Verwaltung",
+      "Gründung des BIFOA",
+      "Erster Lehrstuhl für betriebliche Datenverarbeitung (Mertens)",
+      "Erste Studiengänge in Wien und Darmstadt",
+      "Umbenennung WKBI → WKWI",
+      "Möllemann-Programm mit 2,1 Mrd. DM",
+      "Uni Bamberg gründet erste Fakultät Wirtschaftsinformatik",
+      "Einführung von Bachelor-/Masterstudiengängen WI"
+    ],
+    "explanation": "1955 EDV → 1963 BIFOA → **1968 Mertens** → 1975/76 Studiengänge → **1987 WKWI** → 1989 Möllemann → 2001 Bamberg → 2004 Bachelor/Master."
+  },
+  {
+    "id": "cloze-mertens",
+    "type": "cloze",
+    "title": "Peter Mertens und die WKWI",
+    "difficulty": 1,
+    "prompt": "Ergänze die Lücken.",
+    "text": "Als Vater der WI gilt {{Peter Mertens|Mertens}}. Er übernahm {{1968}} den ersten Lehrstuhl mit Ausrichtung betriebliche Datenverarbeitung. Die Wissenschaftliche Kommission Betriebsinformatik wurde {{1987}} zur Wissenschaftlichen Kommission {{Wirtschaftsinformatik}} (WKWI). Die erste Fakultät für WI entstand {{2001}} an der Uni {{Bamberg}}.",
+    "explanation": "Die drei Jahreszahlen **1968, 1987, 2001** sind die meistgefragten Meilensteine."
+  },
+  {
+    "id": "mcq-basisdisziplinen",
+    "type": "mcq",
+    "title": "Basisdisziplinen nach Mertens",
+    "difficulty": 1,
+    "prompt": "Welche Disziplinen bilden nach **Mertens** die Basis der Wirtschaftsinformatik?",
+    "options": [
+      {
+        "text": "Betriebswirtschaftslehre",
+        "correct": true
+      },
+      {
+        "text": "Informatik",
+        "correct": true
+      },
+      {
+        "text": "Verhaltenswissenschaften",
+        "correct": true
+      },
+      {
+        "text": "Ingenieurwissenschaften",
+        "correct": true
+      },
+      {
+        "text": "Theologie",
+        "correct": false,
+        "why": "Gehört zu den metaphysischen Wissenschaften."
+      },
+      {
+        "text": "Medizin",
+        "correct": false,
+        "why": "Keine Basis- oder Nachbardisziplin der WI laut Vorlesung."
+      }
+    ],
+    "explanation": "Die vier Basisdisziplinen nach Mertens: **BWL, Informatik, Verhaltens- und Ingenieurwissenschaften**. Nachbardisziplinen: Mathematik, Statistik, Soziologie, Psychologie, Recht."
+  },
+  {
+    "id": "recall-grundsystem",
+    "type": "recall",
+    "title": "WI im Grundsystem der Wissenschaften",
+    "difficulty": 2,
+    "prompt": "Ordnen Sie die Wirtschaftsinformatik in das **Grundsystem der Wissenschaften** nach Chmielewicz/Raffée ein und begründen Sie, warum sie als **„Mischwissenschaft“** bezeichnet wird. *(5 Punkte)*",
+    "modelAnswer": "Wissenschaften → **nichtmetaphysische** Wissenschaften → **Realwissenschaften** → Geisteswissenschaften → **Sozialwissenschaften** → Wirtschaftswissenschaften (BWL/VWL) → **Wirtschaftsinformatik**.\n\n**Mischwissenschaft**, weil sie zusätzlich auf die **Formalwissenschaft** zurückgreift (Mathematik/Logik → **Informatik**) und so zwischen BWL und Informatik steht. Sie ist interdisziplinär mit eigenen Methoden.",
+    "rubric": [
+      "Nichtmetaphysisch → Realwissenschaft",
+      "Sozial-/Wirtschaftswissenschaft",
+      "Bezug zur Formalwissenschaft Informatik",
+      "Begründung „Mischwissenschaft“ (zwischen BWL und Informatik)"
+    ],
+    "explanation": "Kernpunkt: Die WI ist **real**wissenschaftlich (untersucht reale IS in Organisationen), nutzt aber **formal**wissenschaftliche Grundlagen der Informatik."
+  },
+  {
+    "id": "recall-haribo",
+    "type": "recall",
+    "title": "Lehrbeispiel Haribo",
+    "difficulty": 2,
+    "prompt": "Haribo stellte ab Oktober 2018 auf **SAP S/4HANA** um (10 Länder, 16 Produktionsstätten). Im Folgejahr fehlten Goldbären in den Regalen, der Umsatz brach um rund ein Viertel ein.\n\nErläutern Sie mit Begriffen der Vorlesung, warum solche Projekte scheitern, und warum das Beispiel zeigt, dass IS **soziotechnisch** sind. *(6 Punkte)*",
+    "modelAnswer": "- **Ursache:** Die Migration von **Prozessen und Daten** aus Altsystemen ist der kritische Teil. Warenwirtschaft und Logistik funktionierten nicht → falsche Liefermengen → leere Regale.\n- **Soziotechnisch:** Ein ERP-System ist nur das **AWS**. Das **IS** umfasst zusätzlich Menschen (Anwender müssen neue Abläufe beherrschen), Aufgaben (Bestellung, Kommissionierung) und den organisatorischen Kontext (Prozesse in 16 Werken). Werden diese nicht mit umgestellt, scheitert das Gesamtsystem trotz funktionierender Software.\n- **Weitere Beispiele:** Lidl (Elwis, ~0,5 Mrd. €), Deutsche Post (345 Mio. €), Edeka (350 statt 200 Mio. €).",
+    "rubric": [
+      "Prozess-/Datenmigration als kritischer Faktor",
+      "Abgrenzung AWS (Software) vs. IS (Gesamtsystem)",
+      "Soziotechnisch begründet (Mensch, Aufgabe, Organisation)",
+      "Mindestens ein weiteres Beispiel oder Konsequenz"
+    ],
+    "explanation": "Die Verbindung zwischen **Fallbeispiel (VL 03)** und **Begriffen (VL 02: IS vs. AWS, soziotechnisch)** zeigt in der Klausur echtes Verständnis."
+  },
+  {
+    "id": "mcq-wi-taetigkeiten",
+    "type": "mcq",
+    "title": "Aufgaben der WI",
+    "difficulty": 1,
+    "prompt": "Womit beschäftigt sich die WI laut GI 2017 in Bezug auf rechnergestützte IS?",
+    "options": [
+      {
+        "text": "Beschreibung, Erklärung, Gestaltung und Vorhersage",
+        "correct": true
+      },
+      {
+        "text": "Ausschließlich mit der Programmierung von Software",
+        "correct": false,
+        "why": "Die WI ist nicht nur technisch, sondern interdisziplinär."
+      },
+      {
+        "text": "Nur mit der Buchführung in Unternehmen",
+        "correct": false,
+        "why": "Das ist ein Teilgebiet der BWL."
+      },
+      {
+        "text": "Mit Hardwareentwicklung und Chipdesign",
+        "correct": false,
+        "why": "Das ist Elektrotechnik/technische Informatik."
+      }
+    ],
+    "explanation": "**Beschreibung, Erklärung, Gestaltung, Vorhersage** – passend zu den Zielen (Verständnis, Konstruktion, Prognose)."
+  }
+]

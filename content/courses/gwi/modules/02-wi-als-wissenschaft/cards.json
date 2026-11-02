@@ -1,0 +1,88 @@
+[
+  {
+    "id": "liste-ziele-wi",
+    "front": "Nenne die **fünf Ziele der WI** nach GI 2017.",
+    "back": "a) **Theorien**, Methoden, Werkzeuge für intersubjektiv überprüfbare Erkenntnisse über IS\nb) **gestaltungsorientierte Konstruktion** von IS (Konzepte, Modelle, Methoden, Sprachen)\nc) realwissenschaftliches **Verständnis** von Einsatz, Akzeptanz, Management, Beherrschbarkeit\nd) wirtschaftswissenschaftliche **Bewertung** von Risiko, Nutzen, Wirtschaftlichkeit\ne) **Prognose** technischer und nichttechnischer Entwicklungen",
+    "hint": "T – K – V – B – P"
+  },
+  {
+    "id": "ziel-konstruktion",
+    "front": "Erläutere das WI-Ziel **(b) gestaltungsorientierte Konstruktion**.",
+    "back": "Konstruktion von IS sowie (Weiter-)Entwicklung von **Konzepten, Vorgehensweisen, Modellen, Methoden, Werkzeugen und (Modellierungs-)Sprachen**."
+  },
+  {
+    "id": "ziel-bewertung",
+    "front": "Erläutere das WI-Ziel **(d) wirtschaftswissenschaftliche Bewertung**.",
+    "back": "Primär wirtschaftswissenschaftlich fundierte Bewertung von **Risiko-, Nutzen- und Wirtschaftlichkeitsdimensionen** bei Gestaltung und Einsatz von IS, veränderter Wertschöpfungsprozesse sowie ihrer strategischen und organisatorischen Auswirkungen (auf Individuen, Gruppen, Unternehmen, Branchen, Wirtschaftsräume)."
+  },
+  {
+    "id": "vgl-is-wi-paradigmen",
+    "front": "Vergleiche **Information Systems** und **Wirtschaftsinformatik** (Ausrichtung, Raum, Methode, Leitwert).",
+    "back": "| | IS | WI |\n|---|---|---|\n| Ausrichtung | verhaltensorientiert | gestaltungsorientiert |\n| Raum | angloamerikanisch | deutsch/europäisch |\n| Methode | quantitativ/empirisch | qualitativ, Design-Theorien |\n| Leitwert | **Rigor** | **Relevance** |"
+  },
+  {
+    "id": "ziel-is-vs-wi",
+    "front": "Was ist das **Forschungsziel** von IS bzw. WI?",
+    "back": "- **IS:** kausale, erklärende und/oder vorhersagende Beziehungen zwischen existierenden IS-Phänomenen ermitteln und validieren\n- **WI:** innovative, nützliche, übertragbare **Lösungen** (IT-Artefakte) für relevante IS-Gestaltungsprobleme entwickeln und evaluieren"
+  },
+  {
+    "id": "gemeinsamkeiten-is-wi",
+    "front": "Was haben **IS** und **WI** gemeinsam?",
+    "back": "Beide sind **anwendungsorientierte** Wissenschaften, und beide untersuchen **IS im betrieblichen/organisationalen Kontext**."
+  },
+  {
+    "id": "rigor-relevance",
+    "front": "Was bedeuten **Rigor** und **Relevance**?",
+    "back": "- **Rigor:** wissenschaftliche Strenge (methodisch saubere, empirische Forschung) – Leitwert der IS\n- **Relevance:** Praxisrelevanz (nützliche Lösungen für reale Probleme) – Leitwert der WI"
+  },
+  {
+    "id": "guetekriterien",
+    "front": "Nenne die drei **Gütekriterien empirischer Forschung**.",
+    "back": "- **Objektivität** (Nachprüfbarkeit)\n- **Reliabilität** (Zuverlässigkeit)\n- **Validität** (Gültigkeit)"
+  },
+  {
+    "id": "abkuerzungen-verbaende",
+    "front": "Wofür stehen **ACM, AIS, AITP** und was geschah 1972/73 und 1997?",
+    "back": "- **ACM** – Association for Computing Machinery: 1972/73 erstes IS-Modell-Curriculum\n- **AIS** – Association for Information Systems\n- **AITP** – Association of Information Technology Professionals\n\n1997: gemeinsames Curriculum von ACM, AIS und AITP."
+  },
+  {
+    "id": "mertens-1968",
+    "front": "Wer gilt als **„Vater der WI“** und was geschah **1968**?",
+    "back": "**Prof. Peter Mertens**: 1968 erster betrieblicher Lehrstuhl mit Ausrichtung **betriebliche Datenverarbeitung**."
+  },
+  {
+    "id": "meilensteine-wi",
+    "front": "Nenne die wichtigsten **Meilensteine** der WI-Geschichte.",
+    "back": "- **1955** erste größere EDV-Anwendung\n- **1963** BIFOA\n- **1968** Mertens, erster Lehrstuhl\n- **1975/76** erste Studiengänge (Wien, Darmstadt)\n- **1987** WKBI → WKWI\n- **1989** Möllemann-Programm (2,1 Mrd. DM)\n- **2001** Uni Bamberg: erste WI-Fakultät\n- **2004** Bachelor/Master"
+  },
+  {
+    "id": "abkuerzungen-wkwi",
+    "front": "Wofür stehen **BIFOA**, **WKBI/WKWI**, **GI** und **BISE**?",
+    "back": "- **BIFOA:** Betriebswirtschaftliches Institut für Organisation und Automation (1963)\n- **WKBI → WKWI:** Wissenschaftliche Kommission Betriebsinformatik → Wirtschaftsinformatik (1987)\n- **GI:** Gesellschaft für Informatik\n- **BISE:** Business & Information Systems Engineering (WI-Zeitschrift)"
+  },
+  {
+    "id": "basisdisziplinen",
+    "front": "Welche **Basisdisziplinen** hat die WI nach **Mertens**? Welche Nachbardisziplinen gibt es?",
+    "back": "**Basis:** Betriebswirtschaftslehre, Informatik, Verhaltenswissenschaften, Ingenieurwissenschaften\n\n**Nachbarn:** Mathematik, Statistik, Soziologie, Psychologie, Recht"
+  },
+  {
+    "id": "grundsystem-wissenschaften",
+    "front": "Wo steht die WI im **Grundsystem der Wissenschaften** (Chmielewicz/Raffée)?",
+    "back": "Nichtmetaphysisch → **Realwissenschaft** → Geisteswissenschaft → **Sozialwissenschaft** → Wirtschaftswissenschaft.\n\n„Mischwissenschaft“ mit Anleihe an die **Formalwissenschaft** (Mathematik/Logik → Informatik)."
+  },
+  {
+    "id": "wi-taetigkeiten",
+    "front": "Womit beschäftigt sich die WI laut GI 2017 (vier Tätigkeiten)?",
+    "back": "**Beschreibung, Erklärung, Gestaltung und Vorhersage** rechnergestützter IS und ihres Einsatzes in Wirtschaft und Verwaltung."
+  },
+  {
+    "id": "kompetenzen-wi",
+    "front": "Welche **Kompetenzen** braucht ein Wirtschaftsinformatiker?",
+    "back": "BWL-Wissen · Modellierung/Systemanalyse · Systementwicklung · Informationstechnik (Rechnerarchitektur, Netze) · Mathematik, Recht, Sprachen · Soft Skills"
+  },
+  {
+    "id": "erp-flops",
+    "front": "Nenne drei **gescheiterte ERP-Projekte** mit Kennzahl – und die zentrale Lehre.",
+    "back": "- **Haribo** (SAP S/4HANA, 2018): ¼ weniger Goldbären-Umsatz\n- **Lidl** (Elwis): fast 0,5 Mrd. € abgeschrieben\n- **Deutsche Post** (NFE): 345 Mio. €\n- Edeka (Lunar): 200 → 350 Mio. €\n\nLehre: Die Migration von **Prozessen und Daten** ist kritisch – IS-Einführung ist **soziotechnisch**."
+  }
+]

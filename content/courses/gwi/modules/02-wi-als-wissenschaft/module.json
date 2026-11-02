@@ -1,0 +1,17 @@
+{
+  "id": "wi-als-wissenschaft",
+  "order": 2,
+  "title": "WI als Wissenschaft: Ziele, Paradigmen, Geschichte",
+  "summary": "Die fünf wissenschaftlichen Ziele der WI, Information Systems vs. Wirtschaftsinformatik, die Geschichte der WI, ihre Basisdisziplinen und gescheiterte ERP-Projekte als Lehrbeispiele.",
+  "learningGoals": [
+    "Mindestens zwei der fünf Ziele der WI nach GI 2017 nennen und erläutern",
+    "Information Systems und Wirtschaftsinformatik als Paradigmen vergleichen (Rigor vs. Relevance)",
+    "Gütekriterien empirischer Forschung nennen",
+    "Meilensteine der WI-Geschichte zeitlich einordnen",
+    "Die Basisdisziplinen der WI nach Mertens nennen und die WI im Grundsystem der Wissenschaften verorten",
+    "Am Beispiel gescheiterter ERP-Projekte erklären, warum IS-Einführungen soziotechnische Vorhaben sind"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "GWI VL 03 – Ziele der WI, IS vs. WI, Geschichte, Basisdisziplinen (Zellner, WS 26/27)" }],
+  "status": "complete"
+}
