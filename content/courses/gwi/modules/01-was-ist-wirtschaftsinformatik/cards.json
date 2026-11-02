@@ -1,0 +1,99 @@
+[
+  {
+    "id": "def-gegenstand-wi",
+    "front": "Was ist der **Gegenstand der Wirtschaftsinformatik** (GI 2017)?",
+    "back": "**Informationssysteme (IS)** in **Wirtschaft, Verwaltung und privatem Bereich**.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-system",
+    "front": "Definiere **System** und nenne seine Bausteine.",
+    "back": "Menge von **Elementen**, zwischen denen **Beziehungen/Wechselwirkungen** bestehen und die gegenüber der **Umwelt abgegrenzt** sind.\n\nDie Elemente arbeiten innerhalb der **Systemgrenze** an einem gemeinsamen **Ziel** und kommunizieren über **Schnittstellen** mit der Umwelt.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "systemgrenze",
+    "front": "Wonach wird die **Systemgrenze** gezogen?",
+    "back": "Nach der **Intensität der Beziehungen**: Innerhalb der Grenze bestehen stärkere, wichtigere Beziehungen als zwischen System und Umwelt."
+  },
+  {
+    "id": "def-informationssystem",
+    "front": "Definiere **Informationssystem** nach GI 2017.",
+    "back": "IS sind **soziotechnische Systeme**, die **menschliche und maschinelle Komponenten** (Teilsysteme) umfassen.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-soziotechnisch",
+    "front": "Was bedeutet **soziotechnisch**?",
+    "back": "Die Aufgaben werden von **personellen und maschinellen Aufgabenträgern kooperativ** durchgeführt."
+  },
+  {
+    "id": "is-laudon",
+    "front": "Wie definieren **Laudon/Laudon** ein Informationssystem?",
+    "back": "Eine Menge zusammenhängender Komponenten, die Informationen **sammeln, verarbeiten, speichern und verteilen** (collect, process, store, distribute), um **Entscheidungsfindung und Kontrolle** in einer Organisation zu unterstützen."
+  },
+  {
+    "id": "liste-is-komponenten",
+    "front": "Nenne die **vier Komponenten** eines IS nach WI-Verständnis.",
+    "back": "1. **Mensch** – Aufgabenträger, Benutzer\n2. **Aufgabe** – betriebliche Problemstellung\n3. **Informationstechnik** – Hard-/Software\n4. **Organisatorischer Kontext** – betriebliche Umwelt",
+    "hint": "MAIO"
+  },
+  {
+    "id": "def-aws",
+    "front": "Was ist ein **Anwendungssystem (AWS)**? Unterschied i. e. S. vs. i. w. S.?",
+    "back": "**Automatisiertes Teilsystem eines IS**, ohne sozialen Teil (kein Mensch).\n\n- **i. e. S.:** nur die Anwendungssoftware\n- **i. w. S.:** + Hardware, Systemsoftware, Kommunikationseinrichtungen",
+    "tags": ["definition"]
+  },
+  {
+    "id": "vgl-is-aws",
+    "front": "Wie hängen **IS** und **AWS** zusammen?",
+    "back": "**IS = AWS + Mensch/Organisation/Aufgabe.** Das AWS ist der rein technische, automatisierte Teil; erst mit dem sozialen Teil wird es zum soziotechnischen IS (Schalenmodell nach Teubner)."
+  },
+  {
+    "id": "def-geschaeftsprozess",
+    "front": "Was kennzeichnet einen **Geschäftsprozess**?",
+    "back": "Folge von Tätigkeiten, die\n- sich an der Wertschöpfungskette orientiert, mit **Auslöser** und **Ergebnis**\n- parallel, wiederholend oder alternativ ablaufen kann\n- **mehrere Abteilungen** einbezieht\n- aus **Routinetätigkeiten** besteht (keine Einzelprojekte)",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-bpr",
+    "front": "Was ist **Business Process Reengineering (BPR)**?",
+    "back": "Konzentration auf die **Kernprozesse** und Beseitigung von Ineffizienzen durch eine Reorganisation entlang der Geschäftsprozesse.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "liste-vorgehen-wi",
+    "front": "Welche vier Schritte geht der Wirtschaftsinformatiker im **KFZ-Händler-Fall**?",
+    "back": "1. Kernprozesse definieren\n2. In Geschäftsvorgänge zerlegen (Auslöser? Wer macht wann was?)\n3. Informationsbedarf ermitteln (Wozu braucht wer wann von wem welche Informationen?)\n4. Realisierungsalternativen aufstellen"
+  },
+  {
+    "id": "liste-ziele-iv",
+    "front": "Nenne mindestens **fünf Ziele der Informationsverarbeitung** mittels IS.",
+    "back": "Rationalisierung · große Datenmengen bewältigen · Geschäftsprozesse beschleunigen · Qualität/Service verbessern · Planung, Steuerung, Kontrolle unterstützen · komplexe Berechnungen (OR) · neue Organisationsformen (Workflow, Groupware, EDI, virtuelle Unternehmen) · strategische Wettbewerbsvorteile"
+  },
+  {
+    "id": "pyramide-ebenen",
+    "front": "Skizziere die **Pyramide betrieblicher IS** (von unten nach oben).",
+    "back": "1. **Administrations- und Dispositionssysteme** (= Transaktionssysteme): F&E, Produktion, Materialwirtschaft, Vertrieb; FiBu, Personal, Verwaltung\n2. Büro- und Gruppenunterstützung\n3. **Abfrage- und Berichtssysteme**\n4. **MUS** operativ/taktisch\n5. **MUS** strategisch (Planungs- und Kontrollsysteme)"
+  },
+  {
+    "id": "vgl-horizontal-vertikal",
+    "front": "**Horizontale** vs. **vertikale Integration**?",
+    "back": "- **Horizontal:** Funktionsbereiche (F&E → Produktion → Materialwirtschaft → Vertrieb) **auf einer Ebene** verbinden\n- **Vertikal:** **Ebenen** verbinden (Transaktionssysteme → Berichtssysteme → MUS)"
+  },
+  {
+    "id": "scm-crm",
+    "front": "Welche **unternehmensübergreifenden IS** umklammern die Pyramide?",
+    "back": "- **SCM** – Supply Chain Management (Lieferantenseite)\n- **CRM** – Customer Relationship Management (Kundenseite)"
+  },
+  {
+    "id": "wi-nicht-nur-technik",
+    "front": "Nenne nicht-technische Themen der WI.",
+    "back": "(Neue) Geschäftsmodelle durch IS/IT, Ablauforganisation (Geschäftsprozessmanagement), Human Computer Interaction (HCI), rechtliche Themen (Internetrecht)."
+  },
+  {
+    "id": "def-digitalisierung",
+    "front": "Wie definieren **Becker (2013)** und **Keuper/Leimeister** Digitalisierung?",
+    "back": "- **Becker:** Umwandlung von Größen, Werten und Zeichen in **Binärcodes** zur elektronischen Speicherung und Verbreitung\n- **Keuper et al. / Leimeister:** Übertragung des Menschen und seiner **Lebens- und Arbeitswelten auf eine digitale Ebene**\n\nNächste Stufe: **d!conomy** (Kempf 2015)"
+  }
+]

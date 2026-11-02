@@ -1,0 +1,183 @@
+[
+  {
+    "id": "cloze-grundbegriffe",
+    "type": "cloze",
+    "title": "Grundbegriffe",
+    "difficulty": 1,
+    "prompt": "Ergänze die Lücken.",
+    "text": "Gegenstand der Wirtschaftsinformatik sind {{Informationssysteme|IS}} in Wirtschaft, Verwaltung und {{privatem Bereich|privat}}. Informationssysteme sind {{soziotechnische|soziotechnisch}} Systeme, d. h. Aufgaben werden von personellen und {{maschinellen}} Aufgabenträgern kooperativ erledigt. Ein Anwendungssystem ist ein {{automatisiertes}} Teilsystem eines Informationssystems.",
+    "explanation": "Diese drei Sätze sind das Fundament der Vorlesung (GI-Empfehlung 2017) und werden in der Klausur fast wörtlich abgefragt."
+  },
+  {
+    "id": "recall-system",
+    "type": "recall",
+    "title": "Systembegriff",
+    "difficulty": 1,
+    "prompt": "Definieren Sie den Begriff **System** und erläutern Sie seine Bausteine. *(5 Punkte)*",
+    "modelAnswer": "Ein System ist eine Menge von **Elementen**, zwischen denen **Beziehungen und Wechselwirkungen** bestehen und die gegenüber der **Umwelt abgegrenzt** sind.\n\n- **Elemente:** kleinste betrachtete Einheiten, deren innere Struktur nicht interessiert\n- **Beziehungen:** konstante Verbindungen; ihr Gefüge ist die Systemstruktur\n- **Systemgrenze/Umwelt:** innerhalb der Grenze sind die Beziehungen intensiver als zur Umwelt\n- **Ziel:** die Elemente arbeiten gemeinsam an einem Ziel\n- **Schnittstellen:** Kommunikation mit der Umwelt",
+    "rubric": [
+      "Elemente genannt",
+      "Beziehungen/Wechselwirkungen genannt",
+      "Abgrenzung zur Umwelt (Systemgrenze)",
+      "Gemeinsames Ziel",
+      "Schnittstellen zur Umwelt"
+    ],
+    "explanation": "Die Kurzformel lautet: **Elemente + Beziehungen + Grenze/Umwelt + Ziel + Schnittstellen**. Die Systemgrenze wird nach der Intensität der Beziehungen gezogen."
+  },
+  {
+    "id": "recall-is-soziotechnisch",
+    "type": "recall",
+    "title": "Informationssystem als soziotechnisches System",
+    "difficulty": 2,
+    "prompt": "Erklären Sie, warum Informationssysteme als **soziotechnisch** bezeichnet werden, und beschreiben Sie die **vier Komponenten** eines IS am Beispiel des **Kassensystems eines Supermarkts**. *(8 Punkte)*",
+    "modelAnswer": "IS sind **soziotechnisch**, weil sie menschliche und maschinelle Komponenten umfassen: Die Aufgaben werden von **personellen und maschinellen Aufgabenträgern kooperativ** erledigt.\n\n**Komponenten am Beispiel Supermarktkasse:**\n- **Mensch:** Kassierer/in (Aufgabenträger), Kund/innen, Filialleitung als Nutzer der Auswertungen\n- **Aufgabe:** Verkäufe erfassen, bezahlen lassen, Bestände fortschreiben\n- **Informationstechnik:** Scanner, Kassen-PC, Kassensoftware, Kartenterminal, Warenwirtschaftsserver\n- **Organisatorischer Kontext:** Filialorganisation, Schichtpläne, Kassenrichtlinien, Anbindung an Einkauf und Buchhaltung",
+    "rubric": [
+      "Soziotechnisch: menschliche + maschinelle Aufgabenträger kooperativ",
+      "Komponente Mensch passend konkretisiert",
+      "Komponente Aufgabe passend konkretisiert",
+      "Komponente Informationstechnik passend konkretisiert",
+      "Komponente organisatorischer Kontext passend konkretisiert"
+    ],
+    "explanation": "Die Komponenten sind **MAIO** (Mensch, Aufgabe, Informationstechnik, organisatorischer Kontext). Volle Punkte gibt es nur, wenn jede Komponente **auf den Fall bezogen** wird."
+  },
+  {
+    "id": "mcq-aws-iws",
+    "type": "mcq",
+    "title": "AWS im weiteren Sinne",
+    "difficulty": 1,
+    "prompt": "Was gehört zu einem **Anwendungssystem im weiteren Sinne**?",
+    "options": [
+      { "text": "Anwendungssoftware", "correct": true },
+      { "text": "Hardware", "correct": true },
+      { "text": "Systemsoftware", "correct": true },
+      { "text": "Kommunikationseinrichtungen", "correct": true },
+      { "text": "Die Sachbearbeiterin, die das System bedient", "correct": false, "why": "Menschen gehören zum IS, nicht zum AWS – das AWS hat keinen sozialen Teil." },
+      { "text": "Die Aufbauorganisation der Abteilung", "correct": false, "why": "Der organisatorische Kontext gehört zum IS, nicht zum AWS." }
+    ],
+    "explanation": "AWS i. e. S. = nur Anwendungssoftware. AWS i. w. S. = Anwendungssoftware + Hardware + Systemsoftware + Kommunikationseinrichtungen. Mensch, Aufgabe und Organisation machen daraus erst ein **IS**."
+  },
+  {
+    "id": "mcq-is-vs-aws",
+    "type": "mcq",
+    "title": "IS oder AWS?",
+    "difficulty": 2,
+    "prompt": "Welche Aussage zu Informationssystem (IS) und Anwendungssystem (AWS) ist **korrekt**?",
+    "options": [
+      { "text": "Das AWS ist ein automatisiertes Teilsystem des IS und enthält keine Menschen.", "correct": true },
+      { "text": "IS und AWS sind Synonyme.", "correct": false, "why": "Das AWS ist nur der automatisierte Teil des IS." },
+      { "text": "Das IS ist ein Teilsystem des AWS.", "correct": false, "why": "Umgekehrt: Das AWS ist Teil des IS." },
+      { "text": "Ein AWS im engeren Sinne umfasst Hard- und Software.", "correct": false, "why": "I. e. S. umfasst nur die Anwendungssoftware." }
+    ],
+    "explanation": "**IS = AWS + Mensch/Organisation/Aufgabe.** Das AWS ist rein technisch; „IS“ wird oft synonym zu IuK-System verwendet – aber nicht zu AWS."
+  },
+  {
+    "id": "match-pyramide",
+    "type": "match",
+    "title": "Arten betrieblicher IS zuordnen",
+    "difficulty": 2,
+    "prompt": "Ordne jedes System eines Handelsunternehmens der passenden Art betrieblicher IS zu.",
+    "pairs": [
+      { "left": "Kassensoftware, die jeden Verkauf bucht", "right": "Administrations-/Dispositionssystem (Transaktionssystem)" },
+      { "left": "Monatlicher Umsatzbericht pro Filiale", "right": "Abfrage- und Berichtssystem" },
+      { "left": "Simulation von Standortstrategien für die nächsten 10 Jahre", "right": "MUS auf strategischer Ebene" },
+      { "left": "E-Mail, Kalender und Textverarbeitung im Büro", "right": "Büroinformationssystem" },
+      { "left": "Portal für automatische Nachbestellungen bei Lieferanten", "right": "Supply Chain Management (SCM)" },
+      { "left": "Kundenkarte mit Kaufhistorie und personalisierten Angeboten", "right": "Customer Relationship Management (CRM)" }
+    ],
+    "explanation": "Unten in der Pyramide stehen die operativen **Transaktionssysteme**, darüber Büro-/Gruppenunterstützung, **Abfrage- und Berichtssysteme** und oben die **MUS**. **SCM** (Lieferanten) und **CRM** (Kunden) sind unternehmensübergreifend."
+  },
+  {
+    "id": "mcq-integration",
+    "type": "mcq",
+    "title": "Horizontale oder vertikale Integration?",
+    "difficulty": 2,
+    "prompt": "Ein Produktionsunternehmen verbindet sein Vertriebssystem so mit der Produktionsplanung und der Materialwirtschaft, dass ein Kundenauftrag automatisch Fertigungsaufträge und Materialbestellungen auslöst. Welche Art der Integration liegt vor?",
+    "options": [
+      { "text": "Horizontale Integration", "correct": true, "why": "Funktionsbereiche auf derselben (operativen) Ebene werden entlang der Wertschöpfung verbunden." },
+      { "text": "Vertikale Integration", "correct": false, "why": "Vertikal würde bedeuten, operative Daten nach oben in Berichts- oder Managementsysteme zu verdichten." },
+      { "text": "Unternehmensübergreifende Integration (SCM)", "correct": false, "why": "Es bleibt innerhalb des Unternehmens; Lieferanten sind nicht direkt angebunden." },
+      { "text": "Keine Integration, nur Automatisierung", "correct": false, "why": "Gerade die Verbindung der Systeme ist Integration." }
+    ],
+    "explanation": "**Horizontal** = Funktionsbereiche auf einer Ebene (Vertrieb → Produktion → Materialwirtschaft). **Vertikal** = Ebenen verbinden (Transaktion → Bericht → MUS)."
+  },
+  {
+    "id": "order-kfz-problemkette",
+    "type": "order",
+    "title": "Problemkette beim KFZ-Händler",
+    "difficulty": 2,
+    "prompt": "Bringe die Probleme des KFZ-Händlers in ihre **kausale Reihenfolge** (Ursache zuerst).",
+    "items": [
+      "Inkompatibilität der Software",
+      "Redundante Datenerfassung",
+      "Inkonsistente Datenhaltung",
+      "Nicht alle Daten im zentralen Zugriff",
+      "Keine Vertriebsunterstützung durch mehrdimensionale Abfragen",
+      "Keine Führungsinformationen für die Geschäftsführung"
+    ],
+    "explanation": "Inkompatible Systeme zwingen zu Mehrfacherfassung (Redundanz); dadurch weichen Datenbestände voneinander ab (Inkonsistenz). Ohne zentralen, konsistenten Zugriff gibt es weder Auswertungen für den Vertrieb noch Führungsinformationen. Lösung: Reorganisation entlang der Geschäftsprozesse (BPR)."
+  },
+  {
+    "id": "order-vorgehen-wi",
+    "type": "order",
+    "title": "Vorgehen des Wirtschaftsinformatikers",
+    "difficulty": 1,
+    "prompt": "In welcher Reihenfolge geht der Wirtschaftsinformatiker im KFZ-Händler-Fall vor?",
+    "items": ["Kernprozesse definieren", "In Geschäftsvorgänge zerlegen", "Informationsbedarf ermitteln", "Realisierungsalternativen aufstellen"],
+    "explanation": "Erst die Prozesse verstehen, dann fragen: **Wozu braucht wer wann von wem welche Informationen?** Erst danach wird über Technik (Alternativen) entschieden – nicht umgekehrt."
+  },
+  {
+    "id": "mcq-geschaeftsprozess",
+    "type": "mcq",
+    "title": "Merkmale eines Geschäftsprozesses",
+    "difficulty": 1,
+    "prompt": "Welche Aussagen beschreiben einen **Geschäftsprozess** korrekt?",
+    "options": [
+      { "text": "Er hat einen Auslöser und ein Ergebnis.", "correct": true },
+      { "text": "Er orientiert sich an der Wertschöpfungskette.", "correct": true },
+      { "text": "Er bezieht in der Regel mehrere Abteilungen ein.", "correct": true },
+      { "text": "Er ist ein einmaliges Projekt.", "correct": false, "why": "Geschäftsprozesse sind Routinetätigkeiten, keine Einzelprojekte." },
+      { "text": "Er läuft immer streng sequenziell ab.", "correct": false, "why": "Tätigkeiten können parallel, wiederholend oder alternativ ablaufen." }
+    ],
+    "explanation": "Geschäftsprozess = Folge von **Routine**tätigkeiten mit Auslöser und Ergebnis, orientiert an der Wertschöpfungskette, **abteilungsübergreifend**, teils parallel/wiederholend/alternativ."
+  },
+  {
+    "id": "recall-ziele-iv",
+    "type": "recall",
+    "title": "Ziele der Informationsverarbeitung",
+    "difficulty": 1,
+    "prompt": "Nennen Sie **fünf Ziele der Informationsverarbeitung** mittels Informationssystemen. *(5 Punkte)*",
+    "modelAnswer": "1. Rationalisierung (Kosteneinsparung)\n2. Bewältigung großer Datenmengen\n3. Beschleunigung von Geschäftsprozessen\n4. Verbesserung von Qualität und Service\n5. Unterstützung von Planung, Steuerung und Kontrolle\n\nWeitere: komplexe Berechnungen (Operations Research), neue Organisationsformen (Workflow Management, Groupware, EDI, virtuelle Unternehmen), strategische Wettbewerbsvorteile.",
+    "rubric": ["Ziel 1 korrekt", "Ziel 2 korrekt", "Ziel 3 korrekt", "Ziel 4 korrekt", "Ziel 5 korrekt"],
+    "explanation": "Es gibt acht Ziele in der Vorlesung – lerne sie mit einem Beispiel je Ziel, dann behältst du sie leichter (z. B. Beschleunigung: Online-Bestellung statt Fax)."
+  },
+  {
+    "id": "match-digitalisierung",
+    "type": "match",
+    "title": "Digitalisierung – wer sagt was?",
+    "difficulty": 2,
+    "prompt": "Ordne jede Aussage der passenden Quelle zu.",
+    "pairs": [
+      { "left": "Umwandlung von Größen, Werten und Zeichen in Binärcodes", "right": "Becker 2013" },
+      { "left": "Übertragung des Menschen und seiner Lebens- und Arbeitswelten auf eine digitale Ebene", "right": "Keuper et al. 2013 / Leimeister 2015" },
+      { "left": "„d!conomy“ als nächste Stufe der Digitalisierung", "right": "Kempf 2015" },
+      { "left": "IS sind Grundvoraussetzung für die Digitalisierung von Wirtschaft und Gesellschaft", "right": "GI-Empfehlung 2017" }
+    ],
+    "explanation": "Becker beschreibt die **ursprüngliche, technische** Bedeutung (analog → digital), Keuper/Leimeister die **heutige, umfassende** Bedeutung (Lebens- und Arbeitswelten)."
+  },
+  {
+    "id": "recall-fallstudie-bibliothek",
+    "type": "recall",
+    "title": "Fallstudie: Ausleihsystem der Hochschulbibliothek",
+    "difficulty": 3,
+    "prompt": "Die Hochschulbibliothek führt ein neues Ausleihsystem ein: Studierende leihen Bücher per Selbstverbuchungsterminal (RFID) aus, Mitarbeitende bearbeiten Fernleihen, und die Bibliotheksleitung erhält monatliche Nutzungsstatistiken für die Anschaffungsplanung.\n\na) Grenzen Sie für diesen Fall das **Informationssystem** vom **Anwendungssystem i. e. S. und i. w. S.** ab.\nb) Ordnen Sie die beschriebenen Funktionen den Ebenen der **IS-Pyramide** zu. *(8 Punkte)*",
+    "modelAnswer": "**a)**\n- **AWS i. e. S.:** die Ausleih-/Bibliothekssoftware\n- **AWS i. w. S.:** zusätzlich Selbstverbuchungsterminals, RFID-Leser, Server, Betriebssystem/Datenbank, Netzwerk\n- **IS:** AWS i. w. S. + Studierende und Mitarbeitende (Aufgabenträger), Aufgaben (Ausleihe, Fernleihe, Planung) und organisatorischer Kontext (Ausleihregeln, Öffnungszeiten, Abläufe) → soziotechnisch\n\n**b)**\n- Ausleihe und Fernleihe = **Transaktions- bzw. Administrations-/Dispositionssysteme**\n- Monatliche Nutzungsstatistik = **Abfrage-/Berichtssystem**\n- Nutzung der Statistik für die Anschaffungsplanung = Unterstützung auf **MUS-Ebene** (Planung/Kontrolle)",
+    "rubric": [
+      "AWS i. e. S. korrekt (nur Anwendungssoftware)",
+      "AWS i. w. S. korrekt (+ Hardware, Systemsoftware, Kommunikation)",
+      "IS korrekt (+ Mensch, Aufgabe, Organisation; soziotechnisch)",
+      "Ausleihe/Fernleihe als Transaktionssystem",
+      "Statistik als Berichtssystem, Planung als MUS"
+    ],
+    "explanation": "Fallstudien dieser Art (vgl. Übungen Luminous, Schiphol) prüfen, ob du die Begriffe **anwenden** kannst. Gehe systematisch vor: erst Schalenmodell (AWS → IS), dann Pyramide (unten → oben)."
+  }
+]

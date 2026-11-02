@@ -1,0 +1,10 @@
+{
+  "id": "gwi",
+  "title": "Grundlagen der Wirtschaftsinformatik",
+  "shortTitle": "GWI",
+  "description": "Was ist Wirtschaftsinformatik, Informationsmanagement, IT-Projektmanagement, Geschäftsprozessmanagement und Digital Commerce.",
+  "semester": "WiSe 2026/27",
+  "lecturer": "Prof. Dr. Gregor Zellner",
+  "color": "indigo",
+  "examFormat": "Portfolio: Klausur 70 Pkt. (45 Min., ohne Hilfsmittel, letzte Semesterwoche) + Vortrag 20 + Ausarbeitung 10"
+}

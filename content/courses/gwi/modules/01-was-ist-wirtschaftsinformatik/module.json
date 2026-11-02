@@ -1,0 +1,18 @@
+{
+  "id": "was-ist-wirtschaftsinformatik",
+  "order": 1,
+  "title": "Was ist Wirtschaftsinformatik? System und Informationssystem",
+  "summary": "Gegenstand der WI, Systembegriff, Informationssysteme als soziotechnische Systeme, Anwendungssysteme, die Pyramide betrieblicher IS und Digitalisierung.",
+  "learningGoals": [
+    "Den Gegenstand der WI nach GI 2017 nennen",
+    "Den Systembegriff mit Elementen, Beziehungen, Systemgrenze, Ziel und Schnittstellen erklären",
+    "Begründen, warum Informationssysteme soziotechnisch sind, und ihre vier Komponenten nennen",
+    "Informationssystem und Anwendungssystem (i. e. S. / i. w. S.) abgrenzen",
+    "Die Pyramide betrieblicher IS mit horizontaler und vertikaler Integration sowie SCM/CRM skizzieren",
+    "Ziele der Informationsverarbeitung und das Vorgehen eines Wirtschaftsinformatikers am Fallbeispiel erläutern",
+    "Zwei Definitionen von Digitalisierung gegenüberstellen"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "GWI VL 02 – Was ist Wirtschaftsinformatik? (Zellner, WS 26/27)" }],
+  "status": "complete"
+}
