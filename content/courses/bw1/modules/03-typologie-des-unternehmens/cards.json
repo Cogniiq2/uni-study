@@ -1,0 +1,141 @@
+[
+  {
+    "id": "liste-typologie-kriterien",
+    "front": "Nach welchen **fünf Kriterien** lassen sich Unternehmen typologisieren?",
+    "back": "1. Branche\n2. Größe\n3. Technisch-ökonomische Struktur\n4. Rechtsform\n5. Standort",
+    "hint": "B – G – S – R – S"
+  },
+  {
+    "id": "sektoren",
+    "front": "Nenne die vier **Wirtschaftssektoren** und ordne Gewinnungs-, Aufbereitungs-, Verarbeitungs- und Dienstleistungsbetriebe zu.",
+    "back": "- **Primär** (Urproduktion): Gewinnungsbetriebe\n- **Sekundär** (Industrie): Aufbereitungs- und Verarbeitungsbetriebe\n- **Tertiär**: Dienstleistungsbetriebe\n- **Quartär**: Informationssektor"
+  },
+  {
+    "id": "def-drei-sektoren-theorie",
+    "front": "Was besagt die **Drei-Sektoren-Theorie** (Fourastié)?",
+    "back": "Der Schwerpunkt der Wirtschaftstätigkeit verlagert sich historisch vom **primären** (Agrar) über den **sekundären** (Industrie) zum **tertiären Sektor** (Dienstleistung).",
+    "tags": ["definition"]
+  },
+  {
+    "id": "hgb-267-schwellen",
+    "front": "Größenklassen nach **§ 267 HGB** (Mitarbeitende / Bilanzsumme / Umsatz)?",
+    "back": "| | MA | Bilanz | Umsatz |\n|---|---|---|---|\n| klein | ≤ 50 | ≤ 7,5 Mio. € | ≤ 15 Mio. € |\n| mittel | ≤ 250 | ≤ 25 Mio. € | ≤ 50 Mio. € |\n| groß | > 250 | > 25 Mio. € | > 50 Mio. € |\n\nMindestens **2 von 3** Kriterien entscheiden."
+  },
+  {
+    "id": "hgb-pflichten",
+    "front": "Welche **Pflichten** knüpfen sich an die HGB-Größenklassen?",
+    "back": "- **Alle** Kapitalgesellschaften: Jahresabschluss erstellen (§ 264) und offenlegen (§ 325)\n- **Mittelgroße und große:** Prüfung durch Wirtschaftsprüfer\n- **KMU:** Erleichterungen (§ 288)"
+  },
+  {
+    "id": "eu-groessenklassen",
+    "front": "Größenklassen der **EU-Kommission** (Mitarbeitende)? Wofür werden sie genutzt?",
+    "back": "Mikro ≤ 9, klein ≤ 49, mittel ≤ 249, groß > 249 Mitarbeitende (Bilanz 2/10/43 Mio. €, Umsatz 2/10/50 Mio. €).\n\nZweck: Eingrenzung von **Förderprogrammen**."
+  },
+  {
+    "id": "grosse-unternehmen-anteil",
+    "front": "Welchen Anteil haben **große Unternehmen** in Deutschland an der Zahl der Unternehmen und an der Wertschöpfung?",
+    "back": "**Weniger als 1 %** der Unternehmen, aber **mehr als 50 %** der Wertschöpfung (Destatis 2020)."
+  },
+  {
+    "id": "liste-unternehmensverbindungen",
+    "front": "Ordne die **Unternehmensverbindungen** nach steigender **Bindungsintensität**.",
+    "back": "1. Agreements\n2. Partizipation\n3. Konsortium\n4. Wirtschaftsverbände\n5. Kartell\n6. Gemeinschaftsunternehmen\n7. Konzern\n8. Verschmelzung (Fusion)"
+  },
+  {
+    "id": "vgl-konsortium-kartell-konzern",
+    "front": "Grenze **Konsortium**, **Kartell** und **Konzern** ab (mit Beispiel).",
+    "back": "- **Konsortium:** vertragliche Verbindung für ein **abgegrenztes Projekt**, Partner bleiben selbstständig, Risikoverteilung (DVB-T2)\n- **Kartell:** vertragliche **Wettbewerbsbeschränkung**, **verboten nach GWB** (Zucker, Stahl, Aufzugbauer)\n- **Konzern:** mind. zwei **rechtlich selbstständige** Unternehmen unter **gemeinsamer Leitung** (Lufthansa)"
+  },
+  {
+    "id": "def-mittelstand",
+    "front": "Welche **qualitativen** Merkmale kennzeichnen den **Mittelstand**?",
+    "back": "1. Einheit von **Eigentum, Haftung und Führung**\n2. **Entscheidungsunabhängigkeit** des Unternehmers (konzernunabhängig)\n3. **Weitgehende Verantwortlichkeit** des Unternehmers für alle Entscheidungen",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-hidden-champion",
+    "front": "Was ist ein **Hidden Champion**? Nenne ein Beispiel aus Regensburg.",
+    "back": "**Nr. 1–3 am Weltmarkt**, **Umsatz < 3 Mrd. €**, in der Öffentlichkeit **kaum bekannt**.\n\nBeispiel: **Maschinenfabrik Reinhausen** (Stufenschalter für Transformatoren).",
+    "tags": ["definition"]
+  },
+  {
+    "id": "liste-hidden-champions-faktoren",
+    "front": "Nenne mindestens **5 der 10 Erfolgsfaktoren** von Hidden Champions nach Simon.",
+    "back": "Klare, ambitiöse Ziele · enger Marktfokus · globale Orientierung · Kundennähe · kontinuierliche Innovation · Fokus auf Kernkompetenzen · klare Wettbewerbsvorteile · Technologie- **und** Marktorientierung · selektierte, motivierte Mitarbeiter · starke Führung durch Top-Management"
+  },
+  {
+    "id": "technisch-oekonomische-struktur",
+    "front": "Nach welchen drei Dimensionen wird die **technisch-ökonomische Struktur** beschrieben?",
+    "back": "1. **Vorherrschender Produktionsfaktor:** personal-, anlagen-, material-, energie-, informationsintensiv\n2. **Fertigungstyp:** Einzel- vs. Mehrfachfertigung\n3. **Fertigungsverfahren:** Werkstatt- vs. Fließprinzip"
+  },
+  {
+    "id": "vgl-werkstatt-fliess",
+    "front": "**Werkstattprinzip** vs. **Fließprinzip** – und welcher Fertigungstyp passt jeweils?",
+    "back": "- **Werkstattprinzip:** Maschinen nach **Funktionen** gruppiert (Stanzen, Bohren, Drehen) → passt zur **Einzelfertigung**\n- **Fließprinzip:** Maschinen in **Arbeitsfolge**, Arbeitsteilung und Spezialisierung → passt zur **Massenfertigung**"
+  },
+  {
+    "id": "liste-rechtsform-kriterien",
+    "front": "Welche **Faktoren** beeinflussen die Wahl der **Rechtsform**?",
+    "back": "Leitungs- und Kontrollbefugnis · Haftungsumfang · Gewinn-/Verlustbeteiligung · Finanzierungsmöglichkeiten · Publizität und Prüfung · Mitbestimmung der Arbeitnehmer · Steuerbelastung"
+  },
+  {
+    "id": "einzelunternehmen",
+    "front": "Kennzeichen des **Einzelunternehmens**?",
+    "back": "Natürliche Person, kein oder nur stiller Gesellschafter, **unbeschränkte Haftung**, formlose Gründung, mit Handelsregistereintrag **Kaufmann**; „Firma“ = Name, unter dem Geschäfte betrieben werden."
+  },
+  {
+    "id": "vgl-personen-kapitalgesellschaft",
+    "front": "**Personen-** vs. **Kapitalgesellschaft**: Rechtspersönlichkeit, Haftung, Abstimmung, Mindestkapital?",
+    "back": "| | Personenges. | Kapitalges. |\n|---|---|---|\n| Rechtsperson | natürliche Personen | juristische Person |\n| Haftung | mind. einer mit Privatvermögen | auf Einlage beschränkt |\n| Abstimmung | nach Köpfen | nach Kapitalanteilen |\n| Mindestkapital | nein | GmbH 25.000 €, AG 50.000 € |"
+  },
+  {
+    "id": "mindestkapital",
+    "front": "**Mindestkapital** von AG, GmbH und UG?",
+    "back": "- **AG:** 50.000 €\n- **GmbH:** 25.000 €\n- **UG (haftungsbeschränkt):** 1 €\n- Personengesellschaften und Genossenschaft: keine Vorschrift"
+  },
+  {
+    "id": "vgl-ohg-kg",
+    "front": "Unterschied **OHG** vs. **KG** bei der Haftung?",
+    "back": "- **OHG:** alle Gesellschafter haften **unbeschränkt** als Gesamtschuldner\n- **KG:** **Komplementäre** haften unbeschränkt (und leiten), **Kommanditisten** haften nur **beschränkt** (Teilhafter)"
+  },
+  {
+    "id": "ag-organe",
+    "front": "Welche **Organe** hat die **AG** und wer wählt den Aufsichtsrat?",
+    "back": "- **Vorstand:** Leitung\n- **Aufsichtsrat:** Kontrolle; Kapitalvertreter werden von der **Hauptversammlung**, Arbeitnehmervertreter von der **Belegschaft** gewählt\n- **Hauptversammlung:** Versammlung der Aktionäre"
+  },
+  {
+    "id": "aktionaersrechte",
+    "front": "Welche vier **Rechte** hat ein **Aktionär**?",
+    "back": "1. Stimmrecht in der Hauptversammlung\n2. Dividende (Gewinnanteil)\n3. Bezugsrecht bei Kapitalerhöhung\n4. Anteil am Liquidationserlös"
+  },
+  {
+    "id": "genossenschaft",
+    "front": "Kennzeichen der **Genossenschaft**?",
+    "back": "Nicht geschlossene Mitgliederzahl (DE mind. **7**, EU mind. 5) · Zweck: **Förderung der Mitglieder** · juristische Person, keine persönliche Haftung (ggf. Nachschusspflicht) · Organe: Vorstand, Aufsichtsrat, Generalversammlung · GenG seit 1869, SCE seit 2006"
+  },
+  {
+    "id": "mitbestimmung",
+    "front": "Schwellen der **Mitbestimmung** im Aufsichtsrat?",
+    "back": "- **Drittelparität:** > 500 bis < 2.000 Beschäftigte\n- **Unterparität:** > 2.000 Beschäftigte\n- **Volle Parität:** Montanbetriebe ab 1.000 Beschäftigten"
+  },
+  {
+    "id": "vgl-international-multinational",
+    "front": "**International** vs. **multinational** (mit Beispiel)?",
+    "back": "- **International:** produziert hauptsächlich im **Inland**, **exportiert** (Heidelberger Druckmaschinen)\n- **Multinational:** **produzierende Tochtergesellschaften** in mehreren Ländern (Siemens)"
+  },
+  {
+    "id": "liste-standortfaktoren",
+    "front": "Nenne die drei Hauptgruppen von **Standortfaktoren** mit Beispiel und weitere Faktoren.",
+    "back": "- **arbeitsbezogen:** Zahl, Kosten, Qualität der Arbeitskräfte\n- **materialbezogen:** Transportkosten, Zuliefersicherheit\n- **absatzbezogen:** Kundennähe, Transportfähigkeit\n\nWeitere: verkehrs-, immobilien-, umweltschutz-, abgabenbezogen, Clusterbildung, rechtlich/politisch"
+  },
+  {
+    "id": "nutzwertanalyse-vorgehen",
+    "front": "Wie funktioniert die **Nutzwertanalyse** (Schritte + Einordnung)?",
+    "back": "**Alternativen → Faktoren → Gewichtung → Bewertung → Ergebnis**\n\nNutzwert = Σ Gewicht × Bewertung; höchster Nutzwert gewinnt.\n\nEinordnung: Entscheidung bei **Sicherheit mit Zielgewichtung**."
+  },
+  {
+    "id": "nutzwertanalyse-kritik",
+    "front": "**Vor- und Nachteile** der Nutzwertanalyse?",
+    "back": "**Vorteile:** leicht anzufertigen, anschaulich, geringer Informationsbedarf, kommunikativ\n\n**Nachteile:** subjektive Präferenzen, Gewichtungs- und Bewertungsproblem, unvollständige Faktorauswahl, unvollkommene Information, **statisch**"
+  }
+]

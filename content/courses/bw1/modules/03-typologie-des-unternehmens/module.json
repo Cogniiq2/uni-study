@@ -1,0 +1,18 @@
+{
+  "id": "typologie-des-unternehmens",
+  "order": 3,
+  "title": "Typologie des Unternehmens",
+  "summary": "Unternehmen nach Branche, Größe, technisch-ökonomischer Struktur, Rechtsform und Standort einordnen – inklusive Unternehmensverbindungen, Hidden Champions und Nutzwertanalyse.",
+  "learningGoals": [
+    "Die fünf Typologie-Kriterien nennen und ein Unternehmen danach einordnen",
+    "Wirtschaftssektoren und die Drei-Sektoren-Theorie erklären",
+    "Unternehmen nach § 267 HGB und EU-Definition klassifizieren",
+    "Unternehmensverbindungen nach Bindungsintensität ordnen und Konsortium, Kartell und Konzern abgrenzen",
+    "Mittelstand und Hidden Champions qualitativ beschreiben",
+    "Personen- und Kapitalgesellschaften sowie die wichtigsten Rechtsformen vergleichen",
+    "Standortfaktoren zuordnen und eine Nutzwertanalyse durchführen und kritisch bewerten"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "BW1 Grundlagen – Teil 3: Typologie des Unternehmens (Raschkowski/Gruber, WS 26/27)", "pages": "1-64" }],
+  "status": "complete"
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "match-sektoren",
+    "type": "match",
+    "title": "Wirtschaftssektoren zuordnen",
+    "difficulty": 1,
+    "prompt": "Ordne jedes Unternehmen dem passenden Wirtschaftssektor zu.",
+    "pairs": [
+      { "left": "Kohlebergwerk", "right": "Primärsektor (Urproduktion)" },
+      { "left": "Möbelfabrik", "right": "Sekundärsektor (Industrie)" },
+      { "left": "Steuerberatungskanzlei", "right": "Tertiärsektor (Dienstleistung)" },
+      { "left": "Anbieter von Datenanalyse- und Informationsdiensten", "right": "Quartärsektor (Information)" }
+    ],
+    "explanation": "Primär = Gewinnung von Naturprodukten; sekundär = Aufbereitung und Verarbeitung; tertiär = Dienstleistungen; quartär = Informationssektor. Nach Fourastié verlagert sich der Schwerpunkt von primär zu tertiär (und heute zunehmend quartär)."
+  },
+  {
+    "id": "mcq-hgb-klassifizierung",
+    "type": "mcq",
+    "title": "Größenklasse nach § 267 HGB",
+    "difficulty": 2,
+    "prompt": "Eine Software-GmbH hat **180 Mitarbeitende**, eine **Bilanzsumme von 20 Mio. €** und einen **Umsatz von 60 Mio. €**. Welche Größenklasse liegt nach § 267 HGB vor?",
+    "options": [
+      { "text": "Mittelgroße Kapitalgesellschaft", "correct": true, "why": "Mitarbeitende (≤ 250) und Bilanzsumme (≤ 25 Mio. €) liegen im mittleren Bereich – 2 von 3 Kriterien." },
+      { "text": "Große Kapitalgesellschaft", "correct": false, "why": "Nur der Umsatz (> 50 Mio. €) liegt im großen Bereich – das ist nur 1 von 3 Kriterien." },
+      { "text": "Kleine Kapitalgesellschaft", "correct": false, "why": "Alle drei Werte liegen über den Schwellen für klein (50 MA / 7,5 / 15 Mio. €)." },
+      { "text": "Kleinstunternehmen nach EU-Definition", "correct": false, "why": "Gefragt ist die HGB-Klassifizierung – und die Werte sind ohnehin viel zu hoch." }
+    ],
+    "explanation": "Entscheidend ist, dass **mindestens zwei der drei** Kriterien erfüllt sind. Folge: Die GmbH muss ihren Jahresabschluss erstellen, offenlegen **und** von einem Wirtschaftsprüfer prüfen lassen."
+  },
+  {
+    "id": "mcq-eu-klassifizierung",
+    "type": "mcq",
+    "title": "Größenklasse nach EU-Definition",
+    "difficulty": 2,
+    "prompt": "Ein Start-up hat **45 Mitarbeitende**, **8 Mio. € Umsatz** und eine **Bilanzsumme von 9 Mio. €**. Welche Kategorie liegt nach der **EU-Kommission** vor?",
+    "options": [
+      { "text": "Kleines Unternehmen", "correct": true, "why": "≤ 49 Mitarbeitende, ≤ 10 Mio. € Umsatz und Bilanzsumme." },
+      { "text": "Kleinstunternehmen (Mikro)", "correct": false, "why": "Mikro: höchstens 9 Mitarbeitende und 2 Mio. €." },
+      { "text": "Mittleres Unternehmen", "correct": false, "why": "Mittel beginnt erst ab 50 Mitarbeitenden bzw. über 10 Mio. €." },
+      { "text": "Großes Unternehmen", "correct": false, "why": "Groß: über 249 Mitarbeitende." }
+    ],
+    "explanation": "EU-Schwellen: Mikro ≤ 9 MA, klein ≤ 49, mittel ≤ 249. Die EU-Klassen grenzen v. a. **Förderprogramme** ein – für ein Start-up also sehr praxisrelevant."
+  },
+  {
+    "id": "cloze-hgb-schwellen",
+    "type": "cloze",
+    "title": "HGB-Schwellenwerte",
+    "difficulty": 2,
+    "prompt": "Ergänze die Schwellenwerte nach § 267 HGB.",
+    "text": "Kleine Kapitalgesellschaft: bis {{50}} Mitarbeitende, bis {{7,5|7.5}} Mio. € Bilanzsumme, bis {{15}} Mio. € Umsatz.\nMittelgroße Kapitalgesellschaft: bis {{250}} Mitarbeitende, bis {{25}} Mio. € Bilanzsumme, bis {{50}} Mio. € Umsatz.",
+    "explanation": "Merkhilfe: Die Bilanzsumme verdreifacht sich ungefähr (7,5 → 25), der Umsatz verdreifacht sich ebenfalls ungefähr (15 → 50), die Mitarbeitenden verfünffachen sich (50 → 250)."
+  },
+  {
+    "id": "order-unternehmensverbindungen",
+    "type": "order",
+    "title": "Bindungsintensität",
+    "difficulty": 2,
+    "prompt": "Ordne die Unternehmensverbindungen nach **steigender Bindungsintensität** (schwächste zuerst).",
+    "items": ["Agreements", "Partizipation", "Konsortium", "Wirtschaftsverbände", "Kartell", "Gemeinschaftsunternehmen", "Konzern", "Verschmelzung (Fusion)"],
+    "explanation": "Die Bindung wächst von losen Vereinbarungen bis zur vollständigen Verschmelzung. Beim **Konzern** bleiben die Unternehmen rechtlich selbstständig, bei der **Fusion** entsteht ein einziges Unternehmen."
+  },
+  {
+    "id": "match-unternehmensverbindungen",
+    "type": "match",
+    "title": "Unternehmensverbindungen erkennen",
+    "difficulty": 2,
+    "prompt": "Um welche Form der Unternehmensverbindung handelt es sich?",
+    "pairs": [
+      { "left": "Mehrere Sender und Netzbetreiber bauen gemeinsam die DVB-T2-Infrastruktur auf und teilen sich das Risiko.", "right": "Konsortium" },
+      { "left": "Zuckerhersteller sprechen Preise und Absatzgebiete untereinander ab.", "right": "Kartell" },
+      { "left": "Eurowings, Swiss und Austrian bleiben eigene Gesellschaften, werden aber einheitlich von der Lufthansa geleitet.", "right": "Konzern" },
+      { "left": "Zwei Unternehmen gründen eine gemeinsame Tochtergesellschaft, an der beide Kapital halten.", "right": "Gemeinschaftsunternehmen (Equity Joint Venture)" },
+      { "left": "Zwei Banken gehen vollständig in einer neuen Bank auf.", "right": "Verschmelzung (Fusion)" }
+    ],
+    "explanation": "**Konsortium** = Projekt + Selbstständigkeit + Risikoverteilung. **Kartell** = Wettbewerbsbeschränkung, verboten nach GWB. **Konzern** = rechtlich selbstständig, aber einheitliche Leitung. **Fusion** = rechtliche Verschmelzung zu einem Unternehmen."
+  },
+  {
+    "id": "recall-mittelstand-hidden-champions",
+    "type": "recall",
+    "title": "Mittelstand und Hidden Champions",
+    "difficulty": 2,
+    "prompt": "Nennen Sie die **qualitativen Merkmale des Mittelstands**. Definieren Sie anschließend den Begriff **Hidden Champion**, nennen Sie ein regionales Beispiel und vier Erfolgsfaktoren nach Simon. *(8 Punkte)*",
+    "modelAnswer": "**Mittelstand (qualitativ):**\n1. Einheit von Eigentum, Haftung und Führung\n2. Entscheidungsunabhängigkeit des Unternehmers (konzernunabhängig)\n3. weitgehende Verantwortlichkeit des Unternehmers für alle relevanten Entscheidungen\n\n**Hidden Champion:** Nr. 1–3 am Weltmarkt, Umsatz < 3 Mrd. €, in der Öffentlichkeit kaum bekannt. Beispiel: **Maschinenfabrik Reinhausen** (Regensburg, Stufenschalter), Zollner (Zandt), Mühlbauer (Roding).\n\n**Erfolgsfaktoren (Auswahl):** klare, ambitiöse Ziele; enger Marktfokus; globale Orientierung; Kundennähe; kontinuierliche Innovation; Fokus auf Kernkompetenzen.",
+    "rubric": [
+      "Einheit von Eigentum, Haftung und Führung",
+      "Entscheidungsunabhängigkeit und Verantwortlichkeit genannt",
+      "Hidden Champion: alle drei Kriterien (Top 3 Weltmarkt, < 3 Mrd. €, unbekannt)",
+      "Passendes Beispiel",
+      "Mindestens vier Erfolgsfaktoren nach Simon"
+    ],
+    "explanation": "Ein Beispiel aus der Region (Ostbayern) zeigt in der Klausur, dass du die Vorlesung verfolgt hast. Achte bei der Hidden-Champion-Definition auf **alle drei** Merkmale."
+  },
+  {
+    "id": "match-vorherrschender-faktor",
+    "type": "match",
+    "title": "Vorherrschender Produktionsfaktor",
+    "difficulty": 2,
+    "prompt": "Welcher Produktionsfaktor dominiert jeweils?",
+    "pairs": [
+      { "left": "Unternehmensberatung", "right": "personalintensiv" },
+      { "left": "Aluminiumhütte", "right": "energieintensiv" },
+      { "left": "Halbleiterfabrik mit Reinraumanlagen", "right": "anlagenintensiv" },
+      { "left": "Goldschmuckhersteller", "right": "materialintensiv" },
+      { "left": "Betreiber einer Suchmaschine", "right": "informationsintensiv" }
+    ],
+    "explanation": "Entscheidend ist, welcher Faktor den **größten Kostenanteil** bzw. die größte Bedeutung hat: Beratung = Menschen, Aluminium = Strom, Chipfabrik = teure Anlagen, Schmuck = Gold, Suchmaschine = Daten/Informationen."
+  },
+  {
+    "id": "mcq-fertigungsverfahren",
+    "type": "mcq",
+    "title": "Fertigungstyp und -verfahren",
+    "difficulty": 1,
+    "prompt": "Ein Automobilwerk produziert täglich 1.500 identische Fahrzeuge eines Modells. Welche Kombination ist am typischsten?",
+    "options": [
+      { "text": "Massenfertigung im Fließprinzip", "correct": true },
+      { "text": "Einzelfertigung im Werkstattprinzip", "correct": false, "why": "Passt zu individuellen Aufträgen, z. B. Sondermaschinenbau." },
+      { "text": "Massenfertigung im Werkstattprinzip", "correct": false, "why": "Bei Massenfertigung wären die Transportwege zwischen Werkstätten ineffizient." },
+      { "text": "Einzelfertigung im Fließprinzip", "correct": false, "why": "Ein Fließband lohnt sich erst bei großen Stückzahlen." }
+    ],
+    "explanation": "**Mehrfach-/Massenfertigung ↔ Fließprinzip** (Maschinen in Arbeitsfolge, Spezialisierung). **Einzelfertigung ↔ Werkstattprinzip** (Maschinen nach Funktionen gruppiert, flexibel)."
+  },
+  {
+    "id": "recall-personen-kapitalgesellschaft",
+    "type": "recall",
+    "title": "Personen- vs. Kapitalgesellschaft",
+    "difficulty": 2,
+    "prompt": "Vergleichen Sie **Personen-** und **Kapitalgesellschaften** anhand von Rechtspersönlichkeit, Haftung, Geschäftsführung, Abstimmung, Mindestkapital und Überwachungsorgan. *(8 Punkte)*",
+    "modelAnswer": "| Merkmal | Personengesellschaft | Kapitalgesellschaft |\n|---|---|---|\n| Rechtspersönlichkeit | natürliche Personen | juristische Person |\n| Haftung | mind. ein Gesellschafter mit Privatvermögen | auf eingelegtes Kapital beschränkt |\n| Geschäftsführung | nur Vollhafter | Geschäftsführung, keine Kapitalbeteiligung nötig |\n| Abstimmung | nach Köpfen | nach Kapitalanteilen |\n| Mindestkapital | nein | ja: GmbH 25.000 €, AG 50.000 € (UG 1 €) |\n| Überwachungsorgan | kein spezielles | gesetzliches Aufsichtsorgan |",
+    "rubric": [
+      "Rechtspersönlichkeit: natürlich vs. juristisch",
+      "Haftung: Privatvermögen vs. Einlage",
+      "Geschäftsführung: Vollhafter vs. Fremdorganschaft möglich",
+      "Abstimmung: Köpfe vs. Kapitalanteile",
+      "Mindestkapital mit konkreten Beträgen",
+      "Überwachungsorgan"
+    ],
+    "explanation": "Eine **Tabelle** ist in der Klausur die effizienteste Antwortform für Vergleiche. Die meistgefragten Punkte sind Haftung und Mindestkapital."
+  },
+  {
+    "id": "match-rechtsformen",
+    "type": "match",
+    "title": "Rechtsformen erkennen",
+    "difficulty": 2,
+    "prompt": "Ordne jeder Rechtsform das kennzeichnende Merkmal zu.",
+    "pairs": [
+      { "left": "AG", "right": "Mindestkapital 50.000 €, Organe Vorstand, Aufsichtsrat, Hauptversammlung" },
+      { "left": "GmbH", "right": "Mindestkapital 25.000 €, Leitung durch Geschäftsführer" },
+      { "left": "UG (haftungsbeschränkt)", "right": "Mindestkapital 1 €" },
+      { "left": "OHG", "right": "Alle Gesellschafter haften unbeschränkt als Gesamtschuldner" },
+      { "left": "KG", "right": "Komplementäre haften unbeschränkt, Kommanditisten beschränkt" },
+      { "left": "Genossenschaft", "right": "Mindestens 7 Mitglieder, Zweck: Förderung der Mitglieder" }
+    ],
+    "explanation": "Kapitalgesellschaften (AG, GmbH, UG) unterscheiden sich vor allem über das **Mindestkapital**. Bei Personengesellschaften ist die **Haftung** das Unterscheidungsmerkmal (OHG alle voll, KG Voll- und Teilhafter)."
+  },
+  {
+    "id": "mcq-aktionaersrechte",
+    "type": "mcq",
+    "title": "Rechte des Aktionärs",
+    "difficulty": 1,
+    "prompt": "Welche Rechte hat ein Aktionär?",
+    "options": [
+      { "text": "Stimmrecht in der Hauptversammlung", "correct": true },
+      { "text": "Anspruch auf Dividende", "correct": true },
+      { "text": "Bezugsrecht bei Kapitalerhöhungen", "correct": true },
+      { "text": "Anteil am Liquidationserlös", "correct": true },
+      { "text": "Weisungsrecht gegenüber dem Vorstand im Tagesgeschäft", "correct": false, "why": "Der Vorstand leitet die AG eigenverantwortlich; Aktionäre wirken über die Hauptversammlung." },
+      { "text": "Persönliche Haftung für Verbindlichkeiten der AG", "correct": false, "why": "Das ist eine Pflicht, kein Recht – und Aktionäre haften nur mit ihrer Einlage." }
+    ],
+    "explanation": "Die vier Aktionärsrechte: **Stimmrecht, Dividende, Bezugsrecht, Liquidationserlös**. Die Leitung liegt beim Vorstand, die Kontrolle beim Aufsichtsrat."
+  },
+  {
+    "id": "mcq-ag-aufsichtsrat",
+    "type": "mcq",
+    "title": "Wahl des Aufsichtsrats",
+    "difficulty": 2,
+    "prompt": "Wer wählt die **Kapitalvertreter** im Aufsichtsrat einer AG?",
+    "options": [
+      { "text": "Die Hauptversammlung", "correct": true },
+      { "text": "Der Vorstand", "correct": false, "why": "Der Vorstand wird umgekehrt vom Aufsichtsrat bestellt und kontrolliert." },
+      { "text": "Die Belegschaft", "correct": false, "why": "Die Belegschaft wählt die Arbeitnehmervertreter." },
+      { "text": "Das Handelsregister", "correct": false, "why": "Das Handelsregister ist ein öffentliches Verzeichnis, kein Organ." }
+    ],
+    "explanation": "Kette: **Hauptversammlung** wählt Kapitalvertreter, **Belegschaft** wählt Arbeitnehmervertreter → **Aufsichtsrat** bestellt und kontrolliert → **Vorstand** leitet."
+  },
+  {
+    "id": "cloze-mitbestimmung",
+    "type": "cloze",
+    "title": "Mitbestimmungsschwellen",
+    "difficulty": 2,
+    "prompt": "Ergänze die Schwellenwerte der Mitbestimmung.",
+    "text": "Drittelparität gilt ab über {{500}} Beschäftigten. Ab über {{2.000|2000}} Beschäftigten gilt die {{Unterparität}}. In Montanbetrieben gilt ab {{1.000|1000}} Beschäftigten die volle Parität.",
+    "explanation": "Die Montanmitbestimmung (Bergbau, Eisen, Stahl) ist am strengsten: volle Parität schon ab 1.000 Beschäftigten. Für Genossenschaften gilt sie nicht."
+  },
+  {
+    "id": "recall-rechtsformwahl-startup",
+    "type": "recall",
+    "title": "Rechtsformwahl für ein Start-up",
+    "difficulty": 3,
+    "prompt": "Zwei Studierende wollen ein SaaS-Start-up gründen. Sie haben zusammen nur **5.000 €** Eigenkapital, möchten **nicht mit ihrem Privatvermögen haften** und planen, in zwei Jahren **Investoren** aufzunehmen.\n\nEmpfehlen Sie eine Rechtsform und begründen Sie anhand der Entscheidungskriterien für die Rechtsformwahl. *(8 Punkte)*",
+    "modelAnswer": "**Empfehlung: UG (haftungsbeschränkt)** mit späterer Umwandlung in eine **GmbH**.\n\n- **Haftung:** Kapitalgesellschaft → Haftung auf die Einlage beschränkt; das Privatvermögen ist geschützt (anders als bei GbR/OHG).\n- **Mindestkapital:** Die UG ist ab 1 € möglich; für die GmbH (25.000 €) und die AG (50.000 €) reichen die 5.000 € nicht.\n- **Finanzierung:** Investoren können Geschäftsanteile übernehmen; die Abstimmung erfolgt nach Kapitalanteilen. Nachteil: Gläubiger verlangen oft persönliche Sicherheiten.\n- **Leitung:** Die Gründer werden Geschäftsführer.\n- **Publizität:** Der Jahresabschluss muss offengelegt werden (Nachteil, aber bei kleinen Gesellschaften mit Erleichterungen).\n- Eine AG wäre wegen Mindestkapital, Gründungsaufwand und Regulierung (AktG) zu früh.",
+    "rubric": [
+      "Kapitalgesellschaft (UG/GmbH) empfohlen",
+      "Haftungsbeschränkung als Hauptargument",
+      "Mindestkapital korrekt berücksichtigt (UG 1 € vs. GmbH 25.000 €)",
+      "Finanzierung/Investoren berücksichtigt",
+      "Mindestens ein Nachteil oder Gegenargument (Publizität, Sicherheiten, Aufwand)"
+    ],
+    "explanation": "Bei Transferaufgaben gibt es Punkte für die **Begründung anhand der Kriterien** (Leitung, Haftung, GuV, Finanzierung, Publizität, Mitbestimmung, Steuern), nicht nur für die richtige Rechtsform."
+  },
+  {
+    "id": "mcq-international-multinational",
+    "type": "mcq",
+    "title": "Geografische Ausbreitung",
+    "difficulty": 1,
+    "prompt": "Ein Maschinenbauer produziert ausschließlich in Bayern und verkauft 80 % seiner Maschinen ins Ausland. Wie ist er nach dem Grad der geografischen Ausbreitung einzuordnen?",
+    "options": [
+      { "text": "International", "correct": true, "why": "Produktion im Inland, Export ins Ausland (wie Heidelberger Druckmaschinen)." },
+      { "text": "Multinational", "correct": false, "why": "Dafür bräuchte er produzierende Tochtergesellschaften in mehreren Ländern (wie Siemens)." },
+      { "text": "Regional", "correct": false, "why": "Der Absatz geht weit über die Region hinaus." },
+      { "text": "National", "correct": false, "why": "Er exportiert den Großteil seiner Produktion." }
+    ],
+    "explanation": "**International** = Produktion im Inland + Export. **Multinational** = produzierende Töchter in mehreren Ländern. Entscheidend ist, **wo produziert** wird, nicht nur, wo verkauft wird."
+  },
+  {
+    "id": "match-standortfaktoren",
+    "type": "match",
+    "title": "Standortfaktoren erkennen",
+    "difficulty": 2,
+    "prompt": "Welcher Standortfaktor war jeweils ausschlaggebend?",
+    "pairs": [
+      { "left": "Aluminiumhütte in Neuseeland neben einem vertraglich gebundenen Wasserkraftwerk", "right": "materialbezogen" },
+      { "left": "VW baut ein Werk in Chattanooga, um den US-Markt zu erschließen", "right": "absatzbezogen" },
+      { "left": "Softwarefirma eröffnet ein Büro neben einer Universität mit vielen Informatik-Absolventen", "right": "arbeitsbezogen" },
+      { "left": "KI-Start-up siedelt sich im Silicon Valley an – in der Nähe vieler Partnerfirmen und Investoren", "right": "Clusterbildung" },
+      { "left": "Unternehmen wählt eine Gemeinde mit besonders niedrigem Gewerbesteuer-Hebesatz", "right": "abgabenbezogen" }
+    ],
+    "explanation": "Das Neuseeland-Beispiel ordnet die Vorlesung als **materialbezogen** ein (Energie als Input der Aluminiumproduktion). VW Chattanooga ist **absatzbezogen** (Kundennähe/Markterschließung)."
+  },
+  {
+    "id": "order-nutzwertanalyse",
+    "type": "order",
+    "title": "Ablauf der Nutzwertanalyse",
+    "difficulty": 1,
+    "prompt": "Bringe die Schritte der Nutzwertanalyse in die richtige Reihenfolge.",
+    "items": ["Alternativen festlegen", "Bewertungsfaktoren bestimmen", "Faktoren gewichten", "Alternativen je Faktor bewerten", "Nutzwerte berechnen und Ergebnis ableiten"],
+    "explanation": "**Alternativen → Faktoren → Gewichtung → Bewertung → Ergebnis.** Die Gewichtung sollte **vor** der Bewertung festgelegt werden, damit man die Gewichte nicht nachträglich zugunsten einer Wunschalternative anpasst."
+  },
+  {
+    "id": "numeric-nutzwertanalyse-rechenzentrum",
+    "type": "numeric",
+    "title": "Nutzwertanalyse: Standort für ein Rechenzentrum",
+    "difficulty": 2,
+    "prompt": "Ein Cloud-Anbieter sucht einen Standort für ein neues Rechenzentrum. Bewertung: 1 = schlecht, 3 = mittel, 5 = gut.\n\n| Kriterium | Gewicht | Frankfurt | Oslo | Lissabon |\n|---|---|---|---|---|\n| Strompreis | 40 | 1 | 5 | 3 |\n| Fachkräfte | 30 | 5 | 3 | 3 |\n| Netzanbindung | 20 | 5 | 3 | 1 |\n| Klima (Kühlung) | 10 | 3 | 5 | 1 |\n\nBerechne die Nutzwerte. *(6 Punkte)*",
+    "steps": [
+      { "label": "Nutzwert **Frankfurt**?", "answer": 320, "solution": "$40 \\cdot 1 + 30 \\cdot 5 + 20 \\cdot 5 + 10 \\cdot 3 = 40 + 150 + 100 + 30 = 320$" },
+      { "label": "Nutzwert **Oslo**?", "answer": 400, "solution": "$40 \\cdot 5 + 30 \\cdot 3 + 20 \\cdot 3 + 10 \\cdot 5 = 200 + 90 + 60 + 50 = 400$" },
+      { "label": "Nutzwert **Lissabon**?", "answer": 240, "solution": "$40 \\cdot 3 + 30 \\cdot 3 + 20 \\cdot 1 + 10 \\cdot 1 = 120 + 90 + 20 + 10 = 240$" }
+    ],
+    "explanation": "**Oslo** hat den höchsten Nutzwert (400) und wird empfohlen. Der hoch gewichtete Strompreis (40 %) gibt den Ausschlag – Frankfurt punktet bei Fachkräften und Netz, verliert aber beim Strom. Kritisch: Gewichte und Bewertungen sind **subjektiv**, und die Betrachtung ist **statisch** (z. B. künftige Strompreise)."
+  },
+  {
+    "id": "recall-nutzwertanalyse-kritik",
+    "type": "recall",
+    "title": "Nutzwertanalyse kritisch würdigen",
+    "difficulty": 2,
+    "prompt": "In der Vorlesung erreichten Brasilia und Moskau bei der Standortwahl beide einen Nutzwert von **390**, Prag **350**. Ordnen Sie die Nutzwertanalyse in die Entscheidungsregeln ein und würdigen Sie das Verfahren kritisch (je zwei Vor- und Nachteile). *(6 Punkte)*",
+    "modelAnswer": "**Einordnung:** Entscheidung bei **Sicherheit mit Zielgewichtung** (ohne Gewichtung: lexikographische Regel).\n\n**Vorteile:** leicht anzufertigen, anschauliche Darstellung, Quantifizierung mit geringem Informationsbedarf, kommunikativ (macht Annahmen diskutierbar).\n\n**Nachteile:** subjektive Präferenzen, Gewichtungs- und Bewertungsproblem, unvollständige Faktorauswahl, unvollkommene Informationen, statische Betrachtung.\n\n**Zum Beispiel:** Der Gleichstand zeigt, dass das Ergebnis stark von der Gewichtung abhängt – schon kleine Änderungen kippen die Entscheidung. Die Nutzwertanalyse ist eine **Entscheidungshilfe, keine Entscheidung**.",
+    "rubric": [
+      "Einordnung: Sicherheit mit Zielgewichtung",
+      "Zwei Vorteile",
+      "Zwei Nachteile",
+      "Bezug zum Gleichstand: Ergebnis hängt von (subjektiver) Gewichtung ab"
+    ],
+    "explanation": "Die Verbindung zu den Entscheidungsregeln aus Modul 1 und der Bezug auf das konkrete Beispiel zeigen Verständnis statt bloßer Aufzählung."
+  }
+]
