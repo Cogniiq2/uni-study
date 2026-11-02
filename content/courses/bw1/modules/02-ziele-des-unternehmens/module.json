@@ -1,0 +1,16 @@
+{
+  "id": "ziele-des-unternehmens",
+  "order": 2,
+  "title": "Ziele des Unternehmens",
+  "summary": "Formal- und Sachziele sowie die drei Erfolgskennzahlen Produktivität, Wirtschaftlichkeit und Rentabilität – berechnen, unterscheiden und durch Benchmarking bewerten.",
+  "learningGoals": [
+    "Formal- und Sachziele unterscheiden und Beispielen zuordnen",
+    "Produktivität, Teilproduktivitäten und Wirtschaftlichkeit berechnen und interpretieren",
+    "Gewinn und Rentabilität abgrenzen sowie Umsatz-, Eigenkapital- und Gesamtkapitalrentabilität berechnen",
+    "Erklären, wie Produktivität, Wirtschaftlichkeit und Rentabilität zusammenhängen",
+    "Die vier Formen des Benchmarkings unterscheiden"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "BW1 Grundlagen – Teil 2: Ziele des Unternehmens (Raschkowski/Gruber, WS 26/27)", "pages": "1-36" }],
+  "status": "complete"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "mcq-formalziele",
+    "type": "mcq",
+    "title": "Formal- oder Sachziel?",
+    "difficulty": 1,
+    "prompt": "Welche der folgenden Ziele sind **Formalziele**?",
+    "options": [
+      { "text": "Die Eigenkapitalrentabilität auf 12 % steigern", "correct": true, "why": "Rentabilität ist ein Formalziel (Erfolgsziel)." },
+      { "text": "Die Wirtschaftlichkeit der Fertigung über 1,1 halten", "correct": true, "why": "Wirtschaftlichkeit ist ein Formalziel." },
+      { "text": "Bis Q3 eine neue App-Version veröffentlichen", "correct": false, "why": "Leistungsziel – also ein Sachziel." },
+      { "text": "Die Zahlungsfähigkeit für 12 Monate sichern", "correct": false, "why": "Finanzziel – also ein Sachziel." },
+      { "text": "Den CO₂-Ausstoß des Rechenzentrums halbieren", "correct": false, "why": "Ökologisches Ziel – also ein Sachziel." }
+    ],
+    "explanation": "**Formalziele** = Produktivität, Wirtschaftlichkeit, Gewinn/Rentabilität (Erfolgsziele, gemessen über Effizienz). **Sachziele** = Leistungs-, Finanz-, Führungs-/Organisations- sowie soziale/ökologische Ziele (gemessen über Effektivität)."
+  },
+  {
+    "id": "recall-formal-sachziele",
+    "type": "recall",
+    "title": "Formal- und Sachziele abgrenzen",
+    "difficulty": 2,
+    "prompt": "Unterscheiden Sie **Formal-** und **Sachziele** und nennen Sie jeweils zwei Beispiele. Wie wird die Zielerreichung jeweils gemessen? *(6 Punkte)*",
+    "modelAnswer": "- **Formalziele** sind übergeordnete **Erfolgsziele**, an denen sich die Sachziele ausrichten. Beispiele: Produktivität, Wirtschaftlichkeit, Gewinn/Rentabilität. Messung über **Effizienz**.\n- **Sachziele** beziehen sich auf das **konkrete Handeln**. Beispiele: Leistungsziele (Produktqualität), Finanzziele (Liquidität), Führungs-/Organisationsziele, soziale/ökologische Ziele. Messung über **Effektivität**.",
+    "rubric": [
+      "Formalziele als übergeordnete Erfolgsziele beschrieben",
+      "Sachziele als konkretes Handeln beschrieben",
+      "Je zwei korrekte Beispiele",
+      "Zuordnung Effizienz (Formal) / Effektivität (Sach)"
+    ],
+    "explanation": "Die Zuordnung zu Effizienz bzw. Effektivität verbindet dieses Kapitel mit dem ökonomischen Prinzip aus Modul 1 – sie bringt in der Klausur oft den entscheidenden Zusatzpunkt."
+  },
+  {
+    "id": "numeric-produktivitaet-blech",
+    "type": "numeric",
+    "title": "Materialproduktivität",
+    "difficulty": 1,
+    "prompt": "Ein Hersteller von Netzwerk-Switches fertigt im **Januar 72.000** Gehäuse aus **12 t** Blech. Nach einer Prozessoptimierung sind es im **Februar 90.000** Gehäuse aus ebenfalls **12 t** Blech.",
+    "steps": [
+      { "label": "Blechproduktivität im **Januar**?", "answer": 6000, "unit": "Gehäuse/t", "solution": "$\\frac{72.000}{12} = 6.000$ Gehäuse/t" },
+      { "label": "Blechproduktivität im **Februar**?", "answer": 7500, "unit": "Gehäuse/t", "solution": "$\\frac{90.000}{12} = 7.500$ Gehäuse/t" },
+      { "label": "Um wie viel **Prozent** ist die Produktivität gestiegen?", "answer": 25, "unit": "%", "solution": "$\\frac{7.500 - 6.000}{6.000} = 0{,}25 = 25\\,\\%$" }
+    ],
+    "explanation": "Produktivität = Output/Input in **Mengen**. Die prozentuale Veränderung bezieht sich immer auf den **Ausgangswert** (Januar)."
+  },
+  {
+    "id": "numeric-arbeitsproduktivitaet",
+    "type": "numeric",
+    "title": "Arbeitsproduktivität im Support",
+    "difficulty": 1,
+    "prompt": "Ein Support-Team löst im März **1.440 Tickets** mit **160 Arbeitsstunden**. Nach Einführung eines Wissensdatenbank-Tools sind es im April **1.760 Tickets** bei gleicher Arbeitszeit.",
+    "steps": [
+      { "label": "Arbeitsproduktivität im **März**?", "answer": 9, "unit": "Tickets/h", "solution": "$\\frac{1.440}{160} = 9$ Tickets/h" },
+      { "label": "Arbeitsproduktivität im **April**?", "answer": 11, "unit": "Tickets/h", "solution": "$\\frac{1.760}{160} = 11$ Tickets/h" },
+      { "label": "Steigerung in **Prozent**? (2 Nachkommastellen)", "answer": 22.22, "tolerance": 0.02, "unit": "%", "solution": "$\\frac{11 - 9}{9} = 0{,}2222 = 22{,}22\\,\\%$" }
+    ],
+    "explanation": "Analog zum Infas-Beispiel (12,5 → 15 Fragebögen/h). Die **Arbeitsproduktivität** ist eine Teilproduktivität: Sie bezieht den Output nur auf den Faktor Arbeit."
+  },
+  {
+    "id": "numeric-flaechenproduktivitaet",
+    "type": "numeric",
+    "title": "Flächenproduktivität",
+    "difficulty": 1,
+    "prompt": "Eine Filiale eines Elektronikhändlers hat **400 m²** Verkaufsfläche und erzielt einen Jahresumsatz von **2,4 Mio. €**.",
+    "steps": [
+      { "label": "Wie hoch ist die **Flächenproduktivität**?", "answer": 6000, "unit": "€/m²", "solution": "$\\frac{2.400.000\\,€}{400\\,\\text{m}^2} = 6.000$ €/m²" }
+    ],
+    "explanation": "Flächenproduktivität = Umsatz / m². Zum Vergleich: dm erreichte 2016 7.168 €/m². Erst ein solcher **Betriebsvergleich** macht die Zahl aussagekräftig."
+  },
+  {
+    "id": "numeric-wirtschaftlichkeit",
+    "type": "numeric",
+    "title": "Wirtschaftlichkeit berechnen",
+    "difficulty": 1,
+    "prompt": "Ein Hosting-Anbieter erzielt im Quartal einen **Ertrag von 540.000 €** bei einem **Aufwand von 450.000 €**. Im Folgequartal muss er wegen eines neuen Wettbewerbers die Preise senken: **Ertrag 495.000 €** bei unverändertem Aufwand und unveränderter Leistungsmenge.",
+    "steps": [
+      { "label": "Wirtschaftlichkeit im **ersten** Quartal?", "answer": 1.2, "solution": "$W = \\frac{540.000}{450.000} = 1{,}2$ → Gewinn" },
+      { "label": "Wirtschaftlichkeit im **Folge**quartal?", "answer": 1.1, "solution": "$W = \\frac{495.000}{450.000} = 1{,}1$ → weiterhin Gewinn, aber geringer" }
+    ],
+    "explanation": "Die **Produktivität** ist unverändert (gleiche Mengen), die **Wirtschaftlichkeit** sinkt allein durch den Preis. Das ist das Gegenstück zum PC-GmbH-Beispiel der Vorlesung (Preiserhöhung → W von 1,0 auf 1,2)."
+  },
+  {
+    "id": "mcq-wirtschaftlichkeit-interpretation",
+    "type": "mcq",
+    "title": "Wirtschaftlichkeit interpretieren",
+    "difficulty": 1,
+    "prompt": "Ein Projekt hat eine Wirtschaftlichkeit von **0,95**. Was bedeutet das?",
+    "options": [
+      { "text": "Der Aufwand übersteigt den Ertrag – das Projekt macht Verlust.", "correct": true },
+      { "text": "Das Projekt macht 95 % Gewinn.", "correct": false, "why": "Wirtschaftlichkeit ist kein Gewinnanteil, sondern Ertrag/Aufwand." },
+      { "text": "Die Produktivität beträgt 95 %.", "correct": false, "why": "Produktivität misst Mengen, Wirtschaftlichkeit Geldwerte." },
+      { "text": "Das Projekt ist genau kostendeckend.", "correct": false, "why": "Kostendeckend wäre W = 1." }
+    ],
+    "explanation": "$W < 1$ → Verlust, $W = 1$ → weder Gewinn noch Verlust, $W > 1$ → Gewinn. Bei 0,95 deckt der Ertrag nur 95 % des Aufwands."
+  },
+  {
+    "id": "mcq-preis-produktivitaet",
+    "type": "mcq",
+    "title": "Preiserhöhung bei der PC GmbH",
+    "difficulty": 2,
+    "prompt": "Die PC GmbH verkauft im März 100 Workstations für 250.000 € (Aufwand 250.000 €). Im April verkauft sie dieselbe Menge mit demselben Faktoreinsatz, aber zu höheren Preisen für 300.000 €. Welche Aussage trifft zu?",
+    "options": [
+      { "text": "Die Produktivität bleibt gleich, die Wirtschaftlichkeit steigt von 1,0 auf 1,2.", "correct": true },
+      { "text": "Produktivität und Wirtschaftlichkeit steigen beide um 20 %.", "correct": false, "why": "Die Mengen sind unverändert – die Produktivität kann nicht steigen." },
+      { "text": "Die Produktivität steigt, die Wirtschaftlichkeit bleibt gleich.", "correct": false, "why": "Genau umgekehrt." },
+      { "text": "Die Wirtschaftlichkeit sinkt, weil der Aufwand gleich bleibt.", "correct": false, "why": "Bei gleichem Aufwand und höherem Ertrag steigt W." }
+    ],
+    "explanation": "**Produktivität** (Mengen) hängt nicht vom Preis ab. Die **Wirtschaftlichkeit** (Geld) steigt dagegen durch die Preiserhöhung: $\\frac{300.000}{250.000} = 1{,}2$."
+  },
+  {
+    "id": "cloze-rentabilitaeten",
+    "type": "cloze",
+    "title": "Rentabilitätsformeln",
+    "difficulty": 1,
+    "prompt": "Vervollständige die Formeln (jeweils × 100 %).",
+    "text": "Umsatzrentabilität = Gewinn / {{Umsatz}}\nEigenkapitalrentabilität = Gewinn / {{Eigenkapital|EK}}\nGesamtkapitalrentabilität = (Gewinn + {{Fremdkapitalzinsen|FK-Zinsen|Zinsen}}) / {{Gesamtkapital|GK}}",
+    "explanation": "Bei der **Gesamtkapitalrentabilität** gehören die Fremdkapitalzinsen in den Zähler, weil das Gesamtkapital auch den Fremdkapitalgebern eine Verzinsung erwirtschaftet."
+  },
+  {
+    "id": "numeric-rentabilitaeten",
+    "type": "numeric",
+    "title": "Rentabilitäten berechnen",
+    "difficulty": 2,
+    "prompt": "Eine IT-Beratung weist folgende Zahlen aus:\n\n| Größe | Wert |\n|---|---|\n| Eigenkapital | 240.000 € |\n| Fremdkapital | 160.000 € zu 5 % Zinsen |\n| Gewinn | 36.000 € |\n| Umsatz | 900.000 € |\n\nBerechne die Kennzahlen. *(8 Punkte)*",
+    "steps": [
+      { "label": "Wie hoch sind die **Fremdkapitalzinsen**?", "answer": 8000, "unit": "€", "solution": "$160.000 \\cdot 0{,}05 = 8.000$ €" },
+      { "label": "**Umsatzrentabilität**?", "answer": 4, "unit": "%", "solution": "$\\frac{36.000}{900.000} = 4\\,\\%$" },
+      { "label": "**Eigenkapitalrentabilität**?", "answer": 15, "unit": "%", "solution": "$\\frac{36.000}{240.000} = 15\\,\\%$" },
+      { "label": "**Gesamtkapitalrentabilität**?", "answer": 11, "unit": "%", "solution": "$\\frac{36.000 + 8.000}{240.000 + 160.000} = \\frac{44.000}{400.000} = 11\\,\\%$" }
+    ],
+    "explanation": "Wer die Zinsen vergisst, erhält für die GK-Rentabilität $\\frac{36.000}{400.000} = 9\\,\\%$ – der klassische Fehler. Die EK-Rentabilität (15 %) liegt über der GK-Rentabilität (11 %), weil das Fremdkapital nur 5 % kostet, aber mehr erwirtschaftet (Leverage-Effekt)."
+  },
+  {
+    "id": "numeric-dosenfabrikant",
+    "type": "numeric",
+    "title": "Dosenfabrikant (Vorlesungsaufgabe)",
+    "difficulty": 3,
+    "tags": ["vorlesungsaufgabe"],
+    "prompt": "Aus **50 kg Blech** werden **300 Dosen** hergestellt, der Blechausschuss beträgt **10 %**, die Maschinenzeit **2 s pro Dose**.\n\nVariante 2: Der Ausschuss wird auf **4 %** gesenkt, dafür steigt die Maschinenzeit auf **2,2 s pro Dose** (Blecheinsatz weiterhin 50 kg).\n\nPreise: Blech 1,20 €/kg, Verkaufspreis 0,30 €/Dose, Maschinenstunde 90 €.\n\n*Hinweis: Lösungsweg nachgerechnet, nicht offiziell bestätigt.*",
+    "steps": [
+      { "label": "a) **Blechproduktivität** Variante 1?", "answer": 6, "unit": "Dosen/kg", "solution": "$\\frac{300}{50} = 6$ Dosen/kg" },
+      { "label": "a) **Maschinenproduktivität** Variante 1?", "answer": 1800, "unit": "Dosen/h", "solution": "$\\frac{3.600\\,\\text{s}}{2\\,\\text{s}} = 1.800$ Dosen/h" },
+      { "label": "b) Wie viele Dosen entstehen in **Variante 2**?", "answer": 320, "unit": "Dosen", "solution": "Blech pro Dose: $\\frac{50 \\cdot 0{,}9}{300} = 0{,}15$ kg. Nutzbar neu: $50 \\cdot 0{,}96 = 48$ kg → $\\frac{48}{0{,}15} = 320$ Dosen" },
+      { "label": "b) **Maschinenproduktivität** Variante 2? (ganze Zahl)", "answer": 1636, "tolerance": 1, "unit": "Dosen/h", "solution": "$\\frac{3.600}{2{,}2} \\approx 1.636$ Dosen/h – sinkt gegenüber Variante 1" },
+      { "label": "c) **Wirtschaftlichkeit** Variante 1?", "answer": 1.2, "solution": "Ertrag $300 \\cdot 0{,}30 = 90$ €. Aufwand: Blech $50 \\cdot 1{,}20 = 60$ € + Maschine $\\frac{600}{3.600} \\cdot 90 = 15$ € = 75 €. $W = \\frac{90}{75} = 1{,}2$" },
+      { "label": "c) **Wirtschaftlichkeit** Variante 2? (2 Nachkommastellen)", "answer": 1.24, "tolerance": 0.005, "solution": "Ertrag $320 \\cdot 0{,}30 = 96$ €. Aufwand: Blech 60 € + Maschine $\\frac{320 \\cdot 2{,}2}{3.600} \\cdot 90 = 17{,}60$ € = 77,60 €. $W = \\frac{96}{77{,}60} \\approx 1{,}24$" }
+    ],
+    "explanation": "Variante 2 hat eine **höhere Blech-**, aber **niedrigere Maschinenproduktivität**. Teilproduktivitäten widersprechen sich – erst die **Wirtschaftlichkeit** bewertet beide Faktoren in Geld und zeigt: **Variante 2 ist besser** (1,24 > 1,20)."
+  },
+  {
+    "id": "match-benchmarking",
+    "type": "match",
+    "title": "Formen des Benchmarkings",
+    "difficulty": 1,
+    "prompt": "Ordne jedem Vergleich die richtige Benchmarking-Form zu.",
+    "pairs": [
+      { "left": "Umsatzrendite 2026 vs. geplante Umsatzrendite 2026", "right": "Soll-Ist-Vergleich" },
+      { "left": "Produktionszeit pro Pkw: Nissan vs. BMW", "right": "Betriebsvergleich" },
+      { "left": "Golf-Produktionszeit 2004 vs. 2013", "right": "Periodenvergleich" },
+      { "left": "Umsatzrendite eines Softwarehauses vs. eines Lebensmittelhändlers", "right": "Branchenvergleich" }
+    ],
+    "explanation": "Entscheidend ist das **Referenzobjekt**: Plan (Soll-Ist), Wettbewerber (Betrieb), eigene Vergangenheit (Periode), andere Branchen (Branche)."
+  },
+  {
+    "id": "mcq-tech-renditen",
+    "type": "mcq",
+    "title": "Tech-Renditen 2013 interpretieren",
+    "difficulty": 2,
+    "prompt": "Ausschnitt aus den Bloomberg-Daten 2013:\n\n| Unternehmen | Gewinn (Mrd. $) | Umsatzrendite | EK-Rendite |\n|---|---|---|---|\n| Oracle | 10,9 | 29 % | 25 % |\n| Apple | 37,0 | 22 % | 31 % |\n| IBM | 16,5 | 17 % | 72 % |\n| Dell | 2,4 | 4 % | 13 % |\n\nWelche Aussagen sind **korrekt**?",
+    "options": [
+      { "text": "Apple erzielt den höchsten absoluten Gewinn, aber nicht die höchste Umsatzrendite.", "correct": true },
+      { "text": "IBM verzinst das Eigenkapital am höchsten.", "correct": true },
+      { "text": "Weil Apple den höchsten Gewinn hat, ist Apple auch am rentabelsten.", "correct": false, "why": "Gewinn ist absolut, Rentabilität relativ – Oracle und IBM haben höhere Renditen." },
+      { "text": "Dell verdient pro Dollar Umsatz am wenigsten.", "correct": true },
+      { "text": "Die Umsatzrendite misst den Gewinn im Verhältnis zum Eigenkapital.", "correct": false, "why": "Das ist die EK-Rendite; die Umsatzrendite bezieht den Gewinn auf den Umsatz." }
+    ],
+    "explanation": "Gewinn (absolut) und Rentabilität (relativ) führen zu unterschiedlichen Rangfolgen. Software (Oracle) hat hohe Margen, Hardware (Dell) niedrige. Die sehr hohe EK-Rendite von IBM deutet auf eine geringe Eigenkapitalbasis hin."
+  },
+  {
+    "id": "recall-zusammenhang-kennzahlen",
+    "type": "recall",
+    "title": "Zusammenhang der Erfolgskennzahlen",
+    "difficulty": 3,
+    "prompt": "Erläutern Sie den Zusammenhang zwischen **Produktivität**, **Wirtschaftlichkeit** und **Rentabilität**. Zeigen Sie an einem Beispiel, dass sich die Wirtschaftlichkeit ändern kann, ohne dass sich die Produktivität ändert. *(8 Punkte)*",
+    "modelAnswer": "- **Produktivität** = Output/Input in **Mengen** (technisch).\n- **Wirtschaftlichkeit** = Ertrag/Aufwand in **Geld**. Sie entspricht der Produktivität, bewertet mit Preisen (Output-Preise/Input-Preise). Höhere Produktivität steigert bei konstanten Preisen auch die Wirtschaftlichkeit.\n- **Rentabilität** = Gewinn/Bezugsgröße. $W > 1$ bedeutet Ertrag > Aufwand, also Gewinn; die Rentabilität setzt diesen Gewinn ins Verhältnis zu Umsatz oder Kapital. Ohne $W > 1$ keine positive Rentabilität.\n\n**Beispiel PC GmbH:** gleiche Menge (100 Workstations) und gleicher Aufwand (250.000 €), aber Preiserhöhung → Ertrag 300.000 € statt 250.000 € → W steigt von 1,0 auf 1,2, die Produktivität bleibt gleich.",
+    "rubric": [
+      "Produktivität = mengenmäßig, Wirtschaftlichkeit = wertmäßig",
+      "Wirtschaftlichkeit als preisbewertete Produktivität erklärt",
+      "W > 1 ⇒ Gewinn ⇒ Grundlage der Rentabilität",
+      "Rentabilität als Gewinn/Bezugsgröße",
+      "Passendes Beispiel (z. B. Preisänderung bei gleichen Mengen)"
+    ],
+    "explanation": "Die Kette lautet: **Mengen → Geld → Gewinn → Gewinn relativ**. Der Schlüssel zur Transferfrage ist, dass Preise nur in Wirtschaftlichkeit und Rentabilität eingehen, nicht in die Produktivität."
+  }
+]

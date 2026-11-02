@@ -1,0 +1,82 @@
+[
+  {
+    "id": "vgl-formal-sachziele",
+    "front": "Unterschied **Formalziele** vs. **Sachziele**?",
+    "back": "- **Formalziele:** übergeordnete **Erfolgsziele**, an denen sich die Sachziele ausrichten → gemessen über **Effizienz**\n- **Sachziele:** beziehen sich auf das **konkrete Handeln** → gemessen über **Effektivität**"
+  },
+  {
+    "id": "liste-formalziele",
+    "front": "Nenne die drei **Formalziele**.",
+    "back": "1. Produktivität\n2. Wirtschaftlichkeit\n3. Gewinn und Rentabilität"
+  },
+  {
+    "id": "liste-sachziele",
+    "front": "Nenne die vier Gruppen von **Sachzielen**.",
+    "back": "Leistungsziele, Finanzziele, Führungs- und Organisationsziele, soziale und ökologische Ziele."
+  },
+  {
+    "id": "def-produktivitaet",
+    "front": "Definiere **Produktivität** (mit Formel).",
+    "back": "**Mengenmäßiges** Verhältnis von Output zu Input eines Produktionsprozesses – eine rein **technische** Messzahl.\n\n$$\\text{Produktivität} = \\frac{\\text{Output}}{\\text{Input}}$$\n\nGemessen in Stück, Gewicht, Zeit.",
+    "tags": ["definition", "formel"]
+  },
+  {
+    "id": "liste-teilproduktivitaeten",
+    "front": "Nenne drei **Teilproduktivitäten** mit Formel.",
+    "back": "- **Arbeitsproduktivität** = Output / Arbeitsstunde\n- **Flächenproduktivität** = Umsatz / m²\n- **Maschinenproduktivität** = Stück / Maschinenstunde"
+  },
+  {
+    "id": "warum-teilproduktivitaeten",
+    "front": "Warum arbeitet man mit **Teilproduktivitäten** statt einer Gesamtproduktivität?",
+    "back": "Die Inputs liegen in **unterschiedlichen Einheiten** vor (kg, h, m²) und lassen sich mengenmäßig nicht addieren. Teilproduktivitäten je Faktor erhöhen die **Aussagekraft**."
+  },
+  {
+    "id": "def-wirtschaftlichkeit",
+    "front": "Definiere **Wirtschaftlichkeit** (Formel, Einheit, Interpretation).",
+    "back": "Verhältnis von **in Geld bewertetem Ertrag** zu **in Geld bewertetem Aufwand**.\n\n$$W = \\frac{\\text{Ertrag}}{\\text{Aufwand}}$$\n\n**Dimensionslos**, auf eine Zeiteinheit bezogen. $W > 1$ Gewinn, $W = 1$ weder noch, $W < 1$ Verlust.",
+    "tags": ["definition", "formel"]
+  },
+  {
+    "id": "vgl-produktivitaet-wirtschaftlichkeit",
+    "front": "Unterschied **Produktivität** vs. **Wirtschaftlichkeit**?",
+    "back": "- Produktivität: Output/Input in **Mengen** (technisch)\n- Wirtschaftlichkeit: Ertrag/Aufwand in **Geld** (wertmäßig)\n\nWirtschaftlichkeit ≈ Produktivität × Preisverhältnis → sie kann auch bei gleicher Produktivität **allein durch Preise** steigen."
+  },
+  {
+    "id": "vgl-gewinn-rentabilitaet",
+    "front": "Unterschied **Gewinn** vs. **Rentabilität**?",
+    "back": "- **Gewinn:** **absolute** Differenz Ertrag − Aufwand (Vermögenszuwachs), in €\n- **Rentabilität:** **relative** Größe = Gewinn / Bezugsgröße (Umsatz, Kapital), in %"
+  },
+  {
+    "id": "formel-umsatzrentabilitaet",
+    "front": "Formel **Umsatzrentabilität**?",
+    "back": "$$\\frac{\\text{Gewinn}}{\\text{Umsatz}} \\cdot 100\\,\\%$$",
+    "tags": ["formel"]
+  },
+  {
+    "id": "formel-ek-rentabilitaet",
+    "front": "Formel **Eigenkapitalrentabilität**?",
+    "back": "$$\\frac{\\text{Gewinn}}{\\text{Eigenkapital}} \\cdot 100\\,\\%$$",
+    "tags": ["formel"]
+  },
+  {
+    "id": "formel-gk-rentabilitaet",
+    "front": "Formel **Gesamtkapitalrentabilität** – und was wird oft vergessen?",
+    "back": "$$\\frac{\\text{Gewinn} + \\text{Fremdkapitalzinsen}}{\\text{Gesamtkapital}} \\cdot 100\\,\\%$$\n\nDie **Fremdkapitalzinsen** müssen zum Gewinn addiert werden – das Gesamtkapital verzinst auch die Fremdkapitalgeber.",
+    "tags": ["formel"]
+  },
+  {
+    "id": "liste-benchmarking",
+    "front": "Nenne die vier Formen des **Benchmarkings** mit Vergleichsobjekt.",
+    "back": "- **Soll-Ist-Vergleich:** eigener Plan\n- **Betriebsvergleich:** Wettbewerber\n- **Periodenvergleich:** eigene Vorperioden\n- **Branchenvergleich:** Unternehmen anderer Branchen"
+  },
+  {
+    "id": "warum-benchmarking",
+    "front": "Warum braucht man für Kennzahlen **Benchmarking**?",
+    "back": "Kennzahlen der Formalziele sind isoliert kaum aussagekräftig – erst der **Vergleich** (mit Plan, Wettbewerbern, Vorperioden oder anderen Branchen) zeigt, ob ein Wert gut oder schlecht ist."
+  },
+  {
+    "id": "zahlen-praxisbeispiele",
+    "front": "Praxisbeispiele: Flächenproduktivität dm, VW-Golf-Produktionszeit, höchste EK-Rendite der Tech-Firmen 2013?",
+    "back": "- **dm:** 6.500 €/m² (2010), 7.168 €/m² (2016) – jeweils Spitzenreiter\n- **VW Golf:** 44 h (2004) → 25 h (2013) = −43 %\n- **IBM:** 72 % EK-Rendite (höchste Umsatzrendite: Oracle 29 %, höchster Gewinn: Apple)"
+  }
+]
