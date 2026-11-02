@@ -1,0 +1,10 @@
+{
+  "id": "demo-datenbanken",
+  "title": "Demo: Datenbanksysteme",
+  "shortTitle": "DB-Demo",
+  "description": "Beispielkurs, der alle Aufgabentypen zeigt. Wird gelöscht, sobald deine echten Kurse da sind.",
+  "semester": "WiSe 2026/27",
+  "color": "indigo",
+  "examFormat": "Klausur 90 min, ohne Hilfsmittel",
+  "demo": true
+}

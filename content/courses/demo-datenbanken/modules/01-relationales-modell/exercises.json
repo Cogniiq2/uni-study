@@ -1,0 +1,106 @@
+[
+  {
+    "id": "mcq-fremdschluessel",
+    "type": "mcq",
+    "title": "Fremdschlüssel",
+    "difficulty": 1,
+    "prompt": "Welche Aussagen über Fremdschlüssel sind **korrekt**?",
+    "options": [
+      { "text": "Ein Fremdschlüssel verweist auf den Primärschlüssel einer Relation.", "correct": true },
+      { "text": "Ein Fremdschlüssel muss immer eindeutig sein.", "correct": false, "why": "Nein – viele Bestellungen können denselben Kunden referenzieren." },
+      { "text": "Fremdschlüssel sichern die referenzielle Integrität.", "correct": true },
+      { "text": "Eine Relation kann höchstens einen Fremdschlüssel haben.", "correct": false, "why": "Eine Relation kann beliebig viele Fremdschlüssel haben." }
+    ],
+    "explanation": "Fremdschlüssel sind **nicht** eindeutig (sonst wäre jede Beziehung 1:1) und eine Relation kann mehrere besitzen (z. B. `Bestellposition` → `Bestellung` und → `Artikel`)."
+  },
+  {
+    "id": "recall-schluesselbegriffe",
+    "type": "recall",
+    "title": "Schlüsselbegriffe abgrenzen",
+    "difficulty": 2,
+    "examStyle": true,
+    "prompt": "Grenzen Sie **Superschlüssel**, **Schlüsselkandidat** und **Primärschlüssel** voneinander ab. *(6 Punkte)*",
+    "modelAnswer": "- **Superschlüssel:** jede Attributmenge, die alle Tupel eindeutig identifiziert.\n- **Schlüsselkandidat:** minimaler Superschlüssel – kein Attribut entbehrlich.\n- **Primärschlüssel:** der aus den Kandidaten ausgewählte Schlüssel, über den Tupel referenziert werden.\n\nBeziehung: Primärschlüssel ⊆ Schlüsselkandidaten ⊆ Superschlüssel.",
+    "rubric": [
+      "Superschlüssel: identifiziert eindeutig",
+      "Schlüsselkandidat: minimal",
+      "Primärschlüssel: ausgewählter Kandidat",
+      "Teilmengenbeziehung oder Beispiel genannt"
+    ],
+    "explanation": "Typischer Punktverlust: „minimal“ fehlt beim Schlüsselkandidaten. Ohne dieses Wort ist die Definition falsch."
+  },
+  {
+    "id": "cloze-sql-klauseln",
+    "type": "cloze",
+    "title": "SQL-Klauseln",
+    "difficulty": 1,
+    "prompt": "Ergänze die Lücken.",
+    "text": "Zeilen werden mit {{WHERE}} vor der Gruppierung gefiltert. Gruppen werden mit {{HAVING}} gefiltert. Sortiert wird mit {{ORDER BY}}.",
+    "explanation": "WHERE → Zeilen, HAVING → Gruppen, ORDER BY → Sortierung der Ergebnismenge."
+  },
+  {
+    "id": "order-auswertung",
+    "type": "order",
+    "title": "Logische Auswertungsreihenfolge",
+    "difficulty": 2,
+    "prompt": "Bringe die Klauseln in die Reihenfolge, in der das DBMS sie **logisch auswertet**.",
+    "items": ["FROM / JOIN", "WHERE", "GROUP BY", "HAVING", "SELECT", "ORDER BY"],
+    "explanation": "Darum kann man in WHERE keinen Spaltenalias aus SELECT verwenden – SELECT wird erst später ausgewertet."
+  },
+  {
+    "id": "match-begriffe",
+    "type": "match",
+    "title": "Begriffe zuordnen",
+    "difficulty": 1,
+    "prompt": "Ordne jedem Begriff die richtige Bedeutung zu.",
+    "pairs": [
+      { "left": "Tupel", "right": "Zeile einer Relation" },
+      { "left": "Attribut", "right": "Spalte einer Relation" },
+      { "left": "Domäne", "right": "Wertebereich eines Attributs" },
+      { "left": "Grad", "right": "Anzahl der Attribute" },
+      { "left": "Kardinalität", "right": "Anzahl der Tupel" }
+    ],
+    "explanation": "Grad = Breite der Tabelle, Kardinalität = Höhe der Tabelle."
+  },
+  {
+    "id": "sql-umsatz-pro-ort",
+    "type": "sql",
+    "title": "Umsatz pro Ort",
+    "difficulty": 2,
+    "examStyle": true,
+    "prompt": "Gib für jeden **Ort** den **Gesamtumsatz** aller Bestellungen aus. Nur Orte mit einem Umsatz **über 100** sollen erscheinen.",
+    "setupSql": "CREATE TABLE kunde (kunde_id INTEGER PRIMARY KEY, name TEXT, ort TEXT);\nCREATE TABLE bestellung (bestell_id INTEGER PRIMARY KEY, kunde_id INTEGER REFERENCES kunde(kunde_id), datum TEXT, betrag REAL);\nINSERT INTO kunde VALUES (1,'Müller','Köln'),(2,'Schmidt','Berlin'),(3,'Weber','Köln'),(4,'Fischer','Hamburg');\nINSERT INTO bestellung VALUES (1,1,'2026-01-03',40),(2,1,'2026-01-10',25.5),(3,2,'2026-01-11',120),(4,3,'2026-02-01',60),(5,4,'2026-02-02',30),(6,2,'2026-02-05',15);",
+    "solutionSql": "SELECT k.ort, SUM(b.betrag) AS umsatz\nFROM kunde k JOIN bestellung b ON b.kunde_id = k.kunde_id\nGROUP BY k.ort\nHAVING SUM(b.betrag) > 100;",
+    "orderMatters": false,
+    "explanation": "JOIN verbindet Kunden mit ihren Bestellungen, GROUP BY bildet eine Gruppe pro Ort, **HAVING** filtert Gruppen nach dem Aggregat. Mit WHERE ginge das nicht, weil die Summe erst nach der Gruppierung existiert. Ergebnis: Köln 125,5 und Berlin 135."
+  },
+  {
+    "id": "numeric-speicher",
+    "type": "numeric",
+    "title": "Speicherbedarf abschätzen",
+    "difficulty": 2,
+    "prompt": "Eine Tabelle `Bestellung` hat 250 000 Tupel. Jedes Tupel besteht aus 4 Attributen à 8 Byte und 16 Byte Verwaltungsoverhead.",
+    "steps": [
+      { "label": "Wie groß ist ein Tupel in Byte?", "answer": 48, "unit": "Byte", "solution": "$4 \\cdot 8 + 16 = 48$ Byte" },
+      { "label": "Wie groß ist die Tabelle in **MB** (1 MB = 1 000 000 Byte)?", "answer": 12, "unit": "MB", "solution": "$250\\,000 \\cdot 48 = 12\\,000\\,000$ Byte $= 12$ MB" }
+    ],
+    "explanation": "Speicherbedarf = Kardinalität × Tupelgröße. In Klausuren immer auf die Einheit achten (MB vs. MiB)."
+  },
+  {
+    "id": "modell-er-zu-relational",
+    "type": "modeling",
+    "title": "ER-Modell → Relationenschema",
+    "difficulty": 3,
+    "examStyle": true,
+    "notation": "Relational",
+    "prompt": "Ein **Student** (MatrNr, Name) kann **mehrere Kurse** belegen, ein **Kurs** (KursNr, Titel) hat **mehrere Studenten**. Bei der Belegung wird die **Note** gespeichert.\n\nÜberführe das in ein Relationenschema (Primärschlüssel unterstreichen, Fremdschlüssel kennzeichnen).",
+    "referenceSolution": "```mermaid\nerDiagram\n  STUDENT ||--o{ BELEGUNG : belegt\n  KURS ||--o{ BELEGUNG : \"wird belegt\"\n  STUDENT { int matrnr PK\n            string name }\n  KURS { int kursnr PK\n         string titel }\n  BELEGUNG { int matrnr PK, FK\n             int kursnr PK, FK\n             decimal note }\n```\n\n- Student(**MatrNr**, Name)\n- Kurs(**KursNr**, Titel)\n- Belegung(**↑MatrNr, ↑KursNr**, Note)\n\n*Konvention: Primärschlüssel **fett**, Fremdschlüssel mit ↑.*",
+    "checklist": [
+      "n:m-Beziehung als eigene Relation (Belegung) aufgelöst",
+      "Primärschlüssel von Belegung = beide Fremdschlüssel zusammen",
+      "Note als Attribut der Beziehungsrelation (nicht bei Student oder Kurs)",
+      "Primär- und Fremdschlüssel korrekt gekennzeichnet"
+    ],
+    "explanation": "Eine **n:m-Beziehung** wird immer in eine eigene Relation überführt. Ihr Primärschlüssel setzt sich aus den Fremdschlüsseln beider Seiten zusammen. Beziehungsattribute (hier: Note) gehören in diese Relation."
+  }
+]

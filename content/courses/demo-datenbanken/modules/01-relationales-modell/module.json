@@ -1,0 +1,15 @@
+{
+  "id": "relationales-modell",
+  "order": 1,
+  "title": "Relationales Modell & SQL-Grundlagen",
+  "summary": "Relationen, Schlüssel und die ersten SQL-Abfragen – das Fundament jeder Datenbankklausur.",
+  "learningGoals": [
+    "Relation, Tupel, Attribut und Domäne präzise definieren",
+    "Primär- und Fremdschlüssel erkennen und begründen",
+    "Einfache SELECT-Abfragen mit WHERE, JOIN und GROUP BY schreiben",
+    "Ein ER-Modell in ein Relationenschema überführen"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "Demo – kein Original", "pages": "–" }],
+  "status": "complete"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "def-relation",
+    "front": "Definiere **Relation** im relationalen Modell.",
+    "back": "Eine Menge von Tupeln über einer festen Menge von Attributen; formal eine Teilmenge des kartesischen Produkts der Domänen: $R \\subseteq D_1 \\times \\dots \\times D_n$.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-schluesselkandidat",
+    "front": "Was ist ein **Schlüsselkandidat**?",
+    "back": "Ein **minimaler** Superschlüssel: identifiziert jedes Tupel eindeutig, und kein Attribut kann weggelassen werden, ohne die Eindeutigkeit zu verlieren.",
+    "hint": "Superschlüssel + eine Zusatzeigenschaft"
+  },
+  {
+    "id": "def-fremdschluessel",
+    "front": "Was ist ein **Fremdschlüssel** und wozu dient er?",
+    "back": "Attribut(e) einer Relation, die auf den Primärschlüssel einer (anderen) Relation verweisen. Sichert die **referenzielle Integrität**: Es darf nur auf existierende Tupel verwiesen werden."
+  },
+  {
+    "id": "fk-1n",
+    "front": "Wohin kommt der Fremdschlüssel bei einer **1:n-Beziehung**?",
+    "back": "Auf die **n-Seite**. Beispiel: Kunde 1:n Bestellung → `Bestellung.kunde_id`."
+  },
+  {
+    "id": "sql-reihenfolge",
+    "front": "In welcher Reihenfolge **wertet** das DBMS die SQL-Klauseln logisch aus?",
+    "back": "FROM/JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY"
+  },
+  {
+    "id": "where-vs-having",
+    "front": "Unterschied **WHERE** vs. **HAVING**?",
+    "back": "WHERE filtert **Zeilen vor** der Gruppierung, HAVING filtert **Gruppen nach** GROUP BY (darf Aggregatfunktionen enthalten)."
+  }
+]

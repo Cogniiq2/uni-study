@@ -1,0 +1,135 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Design tokens — calm, high-contrast reading surface. Dark mode follows the OS. */
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --surface-2: #f4f4f3;
+  --border: #e7e5e4;
+  --text: #1c1917;
+  --muted: #78716c;
+  --accent: #4f46e5;
+  --accent-soft: #eef2ff;
+  --good: #059669;
+  --bad: #dc2626;
+  --warn: #d97706;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0c0c0e;
+    --surface: #141417;
+    --surface-2: #1c1c20;
+    --border: #2a2a30;
+    --text: #ededee;
+    --muted: #9b9ba3;
+    --accent: #818cf8;
+    --accent-soft: #1e1b4b;
+    --good: #34d399;
+    --bad: #f87171;
+    --warn: #fbbf24;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-fg: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --color-warn: var(--warn);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  color-scheme: light dark;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Long-form lesson typography */
+.prose-study {
+  @apply prose prose-stone max-w-none dark:prose-invert;
+  --tw-prose-body: var(--text);
+  --tw-prose-headings: var(--text);
+  --tw-prose-links: var(--accent);
+  --tw-prose-code: var(--text);
+  --tw-prose-invert-body: var(--text);
+  --tw-prose-invert-headings: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+.prose-study h2 {
+  @apply mt-12 mb-4 scroll-mt-24 border-b border-line pb-2 text-2xl font-semibold tracking-tight;
+}
+.prose-study h3 {
+  @apply mt-8 scroll-mt-24 text-lg font-semibold;
+}
+.prose-study :where(code):not(:where(pre *)) {
+  @apply rounded bg-surface-2 px-1.5 py-0.5 font-normal;
+}
+.prose-study :where(code):not(:where(pre *))::before,
+.prose-study :where(code):not(:where(pre *))::after {
+  content: none;
+}
+.prose-study pre {
+  @apply rounded-xl border border-line bg-surface-2 text-fg;
+}
+.prose-study table {
+  @apply block overflow-x-auto text-[0.95rem];
+}
+.prose-study .katex-display {
+  @apply overflow-x-auto overflow-y-hidden py-1;
+}
+.prose-study.prose-compact {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.prose-study.prose-compact > :first-child { margin-top: 0; }
+.prose-study.prose-compact > :last-child { margin-bottom: 0; }
+
+/* Callouts:  > [!DEFINITION] */
+.callout {
+  @apply my-6 rounded-xl border-l-4 px-5 py-4 not-italic;
+  quotes: none;
+}
+.callout > p:first-of-type::before { content: none; }
+.callout-title {
+  @apply mb-1 text-xs font-semibold tracking-wider uppercase;
+}
+.callout-DEFINITION { border-color: #6366f1; background: color-mix(in srgb, #6366f1 7%, transparent); }
+.callout-DEFINITION .callout-title { color: #6366f1; }
+.callout-MERKE { border-color: #059669; background: color-mix(in srgb, #059669 7%, transparent); }
+.callout-MERKE .callout-title { color: #059669; }
+.callout-BEISPIEL { border-color: #0ea5e9; background: color-mix(in srgb, #0ea5e9 7%, transparent); }
+.callout-BEISPIEL .callout-title { color: #0ea5e9; }
+.callout-WARNUNG { border-color: #dc2626; background: color-mix(in srgb, #dc2626 7%, transparent); }
+.callout-WARNUNG .callout-title { color: #dc2626; }
+.callout-KLAUSUR { border-color: #d97706; background: color-mix(in srgb, #d97706 8%, transparent); }
+.callout-KLAUSUR .callout-title { color: #d97706; }
+.callout-FORMEL { border-color: #8b5cf6; background: color-mix(in srgb, #8b5cf6 7%, transparent); }
+.callout-FORMEL .callout-title { color: #8b5cf6; }
+.callout-INFO { border-color: var(--muted); background: var(--surface-2); }
+.callout-INFO .callout-title { color: var(--muted); }
+.prose-study blockquote.callout p { font-style: normal; font-weight: 400; }
+.prose-study blockquote.callout p:first-of-type::before,
+.prose-study blockquote.callout p:last-of-type::after { content: none; }

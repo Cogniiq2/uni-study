@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.env
+.env*.local
+.vercel
+public/sql-wasm.wasm
+.DS_Store
+# Raw lecture material (PDFs) never goes into git — copyright + repo size
+inbox/
