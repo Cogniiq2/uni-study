@@ -1,0 +1,263 @@
+[
+  {
+    "id": "order-maslow",
+    "type": "order",
+    "title": "Maslow-Pyramide",
+    "difficulty": 1,
+    "prompt": "Bringe die Bedürfnisse der **Maslow-Pyramide** in die richtige Reihenfolge – von der **Basis** (unten) zur **Spitze**.",
+    "items": ["Physiologische Bedürfnisse", "Sicherheitsbedürfnisse", "Soziale Bedürfnisse", "Bedürfnis nach Wertschätzung", "Bedürfnis nach Selbstverwirklichung"],
+    "explanation": "Von unten nach oben: physiologisch → Sicherheit → sozial → Wertschätzung → Selbstverwirklichung. Die unteren beiden Stufen sind **primäre**, die oberen drei **sekundäre** Bedürfnisse."
+  },
+  {
+    "id": "mcq-maslow-einordnung",
+    "type": "mcq",
+    "title": "Bedürfnisse einordnen",
+    "difficulty": 1,
+    "prompt": "Welche Beispiele gehören zu den **primären** Bedürfnissen nach Maslow?",
+    "options": [
+      { "text": "Eine Berufsunfähigkeitsversicherung abschließen", "correct": true, "why": "Sicherheitsbedürfnis (Stufe 2) – primär." },
+      { "text": "Nach einer langen Nacht etwas essen", "correct": true, "why": "Physiologisches Bedürfnis (Stufe 1) – primär." },
+      { "text": "Für ein Projekt öffentlich gelobt werden", "correct": false, "why": "Wertschätzung (Stufe 4) – sekundär." },
+      { "text": "Einem Verein beitreten, um Freunde zu finden", "correct": false, "why": "Soziales Bedürfnis (Stufe 3) – sekundär." },
+      { "text": "Ein eigenes Start-up gründen, um eine Vision umzusetzen", "correct": false, "why": "Selbstverwirklichung (Stufe 5) – sekundär." }
+    ],
+    "explanation": "**Primär** = Stufen 1–2 (physiologisch, Sicherheit). **Sekundär** = Stufen 3–5 (sozial, Wertschätzung, Selbstverwirklichung)."
+  },
+  {
+    "id": "recall-beduerfnis-motiv-bedarf",
+    "type": "recall",
+    "title": "Bedürfnis, Motiv, Bedarf",
+    "difficulty": 2,
+    "prompt": "Grenzen Sie die Begriffe **Bedürfnis**, **Motiv** und **Bedarf** voneinander ab und erläutern Sie sie an einem durchgehenden Beispiel. *(6 Punkte)*",
+    "modelAnswer": "- **Bedürfnis:** allgemeines Mangelempfinden, Wunsch oder Verlangen nach etwas – z. B. *Hunger*.\n- **Motiv:** zielgerichtet auf eine bestimmte Bedürfnisbefriedigung – z. B. *Verlangen nach einer Pizza*.\n- **Bedarf:** die konkrete Nachfrage nach etwas – z. B. *eine Pizza für 10 € beim Lieferdienst bestellen wollen*.\n\nUnbefriedigte Bedürfnisse bestimmen das Verhalten; über Motiv und Bedarf werden sie am Markt zur Nachfrage.",
+    "rubric": [
+      "Bedürfnis als (allgemeines) Mangelempfinden/Wunsch definiert",
+      "Motiv als zielgerichtet definiert",
+      "Bedarf als (konkrete) Nachfrage definiert",
+      "Ein durchgehendes, passendes Beispiel für alle drei Begriffe"
+    ],
+    "explanation": "Der Kern ist die Steigerung **allgemein → zielgerichtet → konkret am Markt**. Häufiger Fehler: Bedürfnis und Bedarf gleichsetzen – Bedarf ist bereits die Nachfrage."
+  },
+  {
+    "id": "match-entscheidungsregeln",
+    "type": "match",
+    "title": "Entscheidungsregeln zuordnen",
+    "difficulty": 1,
+    "prompt": "Ordne jeder Entscheidungsregel die passende Beschreibung zu.",
+    "pairs": [
+      { "left": "Laplace-Regel", "right": "Alle Umweltzustände gelten als gleich wahrscheinlich" },
+      { "left": "Maximin-Regel", "right": "Pessimist: bestes der schlechtesten Ergebnisse" },
+      { "left": "Maximax-Regel", "right": "Optimist: bestes der besten Ergebnisse" },
+      { "left": "Hurwicz-Regel", "right": "Mischtyp: Kombination aus Maximin und Maximax" },
+      { "left": "Erwartungswert-Regel", "right": "Risiko: Ergebnisse mit bekannten Wahrscheinlichkeiten gewichten" },
+      { "left": "Nutzwertanalyse", "right": "Sicherheit mit Zielgewichtung" }
+    ],
+    "explanation": "Sicherheit → lexikographische Regel / Nutzwertanalyse. Risiko → Erwartungswert (Bayes). Ungewissheit → Laplace, Maximin, Maximax, Hurwicz."
+  },
+  {
+    "id": "mcq-risiko-ungewissheit",
+    "type": "mcq",
+    "title": "Risiko oder Ungewissheit?",
+    "difficulty": 2,
+    "prompt": "Ein Unternehmen kennt für drei mögliche Konjunkturentwicklungen die Eintrittswahrscheinlichkeiten aus einer Marktstudie (20 %, 50 %, 30 %). Welche Entscheidungsregel ist **passend**?",
+    "options": [
+      { "text": "Erwartungswert-Regel (Bayes-Regel)", "correct": true, "why": "Wahrscheinlichkeiten bekannt → Entscheidung bei Risiko." },
+      { "text": "Laplace-Regel", "correct": false, "why": "Laplace unterstellt Gleichwahrscheinlichkeit, weil Wahrscheinlichkeiten unbekannt sind." },
+      { "text": "Maximin-Regel", "correct": false, "why": "Maximin ist eine Regel bei Ungewissheit (Wahrscheinlichkeiten unbekannt)." },
+      { "text": "Lexikographische Regel", "correct": false, "why": "Gilt bei Sicherheit ohne Zielgewichtung." }
+    ],
+    "explanation": "**Risiko** = Wahrscheinlichkeiten bekannt → Erwartungswert. **Ungewissheit** = Wahrscheinlichkeiten unbekannt → Laplace, Maximin, Maximax, Hurwicz."
+  },
+  {
+    "id": "numeric-entscheidungsmatrix",
+    "type": "numeric",
+    "title": "Entscheidungsmatrix bei Ungewissheit",
+    "difficulty": 2,
+    "prompt": "Ein Softwarehaus plant eine Produkteinführung. Der Gewinn (Tsd. €) hängt von der unbekannten Marktentwicklung ab:\n\n| Alternative | schwach | mittel | stark |\n|---|---|---|---|\n| A | 50 | 70 | 80 |\n| B | 20 | 90 | 120 |\n| C | 60 | 65 | 70 |\n\nGib jeweils den **Entscheidungswert der gewählten Alternative** an.",
+    "steps": [
+      { "label": "**Maximin-Regel:** Welcher Wert wird gewählt?", "answer": 60, "unit": "Tsd. €", "solution": "Minima: A 50, B 20, **C 60** → Alternative **C** mit 60." },
+      { "label": "**Maximax-Regel:** Welcher Wert wird gewählt?", "answer": 120, "unit": "Tsd. €", "solution": "Maxima: A 80, **B 120**, C 70 → Alternative **B** mit 120." },
+      { "label": "**Laplace-Regel:** Welcher (durchschnittliche) Wert wird gewählt? (2 Nachkommastellen)", "answer": 76.67, "tolerance": 0.02, "unit": "Tsd. €", "solution": "Mittelwerte: A $\\frac{200}{3} = 66{,}67$; B $\\frac{230}{3} = 76{,}67$; C $\\frac{195}{3} = 65$ → Alternative **B**." },
+      { "label": "**Hurwicz-Regel** mit Optimismusparameter $\\alpha = 0{,}3$: Welcher Wert wird gewählt?", "answer": 63, "unit": "Tsd. €", "solution": "$\\alpha \\cdot \\max + (1-\\alpha) \\cdot \\min$:\n- A: $0{,}3 \\cdot 80 + 0{,}7 \\cdot 50 = 59$\n- B: $0{,}3 \\cdot 120 + 0{,}7 \\cdot 20 = 50$\n- C: $0{,}3 \\cdot 70 + 0{,}7 \\cdot 60 = 63$ → Alternative **C**." }
+    ],
+    "explanation": "Die Regeln führen zu **unterschiedlichen** Entscheidungen: Der Pessimist (Maximin) und der eher pessimistische Hurwicz-Entscheider ($\\alpha = 0{,}3$) wählen das sichere C, der Optimist (Maximax) und Laplace das riskante B. Die Wahl der Regel spiegelt die **Risikoeinstellung** wider."
+  },
+  {
+    "id": "match-wirtschaftsgueter",
+    "type": "match",
+    "title": "Wirtschaftsgüter einordnen",
+    "difficulty": 2,
+    "prompt": "Ein Möbelhersteller fertigt Holztische. Ordne jedes Gut der passenden Kategorie zu.",
+    "pairs": [
+      { "left": "CNC-Fräsmaschine", "right": "Potenzialfaktor" },
+      { "left": "Eichenholz", "right": "Rohstoff" },
+      { "left": "Leim", "right": "Hilfsstoff" },
+      { "left": "Schmieröl für die Maschine", "right": "Betriebsstoff" },
+      { "left": "Patent auf ein Klappmechanismus-Design", "right": "Immaterielles Gut (Recht)" },
+      { "left": "Fertiger Tisch im Wohnzimmer eines Kunden", "right": "Konsumgut (Gebrauchsgut)" }
+    ],
+    "explanation": "**Potenzialfaktoren** nutzen sich über viele Perioden ab. **Repetierfaktoren**: Rohstoff = Hauptbestandteil, Hilfsstoff = Nebenbestandteil, Betriebsstoff = geht nicht ins Produkt ein. Patente sind **Rechte** und damit immaterielle Güter. Beim Endkunden wird der Tisch zum **Gebrauchsgut** (mehrfach nutzbar)."
+  },
+  {
+    "id": "mcq-gueterbeziehung",
+    "type": "mcq",
+    "title": "Beziehungsart von Gütern",
+    "difficulty": 1,
+    "prompt": "Ein Druckerhersteller verkauft Drucker günstig und verdient am **Toner**. In welcher Beziehung stehen Drucker und Toner?",
+    "options": [
+      { "text": "Komplementärgüter", "correct": true, "why": "Sie ergänzen sich – erst zusammen stiften sie Nutzen." },
+      { "text": "Substitutionsgüter", "correct": false, "why": "Substitute ersetzen einander (Butter/Margarine)." },
+      { "text": "Unverbundene Güter", "correct": false, "why": "Unverbunden heißt: Nur dieses Gut befriedigt das Bedürfnis, ohne Bezug zu anderen Gütern." },
+      { "text": "Freie Güter", "correct": false, "why": "Freie Güter sind im Überfluss vorhanden und haben keinen Preis." }
+    ],
+    "explanation": "**Komplementärgüter** ergänzen sich (Drucker ↔ Toner). Das Geschäftsmodell nutzt genau diese Abhängigkeit aus. **Substitutionsgüter** ersetzen sich gegenseitig."
+  },
+  {
+    "id": "match-oekonomisches-prinzip",
+    "type": "match",
+    "title": "Ökonomisches Prinzip erkennen",
+    "difficulty": 1,
+    "prompt": "Welche Form des ökonomischen Prinzips liegt jeweils vor?",
+    "pairs": [
+      { "left": "Mit einem festen Marketingbudget von 50.000 € möglichst viele Leads gewinnen", "right": "Maximalprinzip" },
+      { "left": "Ein Release mit festgelegtem Funktionsumfang mit möglichst wenigen Entwicklerstunden fertigstellen", "right": "Minimalprinzip" },
+      { "left": "Preis und Absatzmenge so wählen, dass der Gewinn maximal wird", "right": "Optimalprinzip" }
+    ],
+    "explanation": "**Input fix** → Maximalprinzip. **Output fix** → Minimalprinzip. **Nichts fix**, beides wird abgestimmt → Optimalprinzip."
+  },
+  {
+    "id": "numeric-effizienz-effektivitaet",
+    "type": "numeric",
+    "title": "Effizienz und Effektivität im IT-Support",
+    "difficulty": 2,
+    "prompt": "Ein IT-Support-Team hat sich für den Monat das Ziel gesetzt, **1.200 Tickets** zu lösen. Tatsächlich gelöst wurden **1.080 Tickets**, wofür **900 Arbeitsstunden** eingesetzt wurden.",
+    "steps": [
+      { "label": "Wie hoch ist die **Effektivität** in Prozent?", "answer": 90, "unit": "%", "solution": "Effektivität = Ist / Ziel = $\\frac{1.080}{1.200} = 0{,}9 = 90\\,\\%$" },
+      { "label": "Wie hoch ist die **Effizienz** in Tickets pro Arbeitsstunde?", "answer": 1.2, "unit": "Tickets/h", "solution": "Effizienz = Output / Input = $\\frac{1.080}{900} = 1{,}2$ Tickets/h" }
+    ],
+    "explanation": "**Effektivität** misst die Zielerreichung (Ist/Ziel), **Effizienz** das Verhältnis von Output zu Input. Ein Team kann effizient arbeiten und das Ziel trotzdem verfehlen."
+  },
+  {
+    "id": "mcq-effizient-nicht-effektiv",
+    "type": "mcq",
+    "title": "Effizient, aber nicht effektiv?",
+    "difficulty": 2,
+    "prompt": "Ein Entwicklerteam baut ein neues Feature mit sehr geringem Aufwand und unter Budget. Nach dem Launch nutzt es **kein einziger Kunde**, weil es am Bedarf vorbeientwickelt wurde. Wie ist das zu bewerten?",
+    "options": [
+      { "text": "Effizient, aber nicht effektiv", "correct": true, "why": "Die Dinge wurden richtig (sparsam) gemacht, aber nicht die richtigen Dinge." },
+      { "text": "Effektiv, aber nicht effizient", "correct": false, "why": "Effektiv wäre es nur, wenn das Ziel (Kundennutzen) erreicht wäre." },
+      { "text": "Weder effizient noch effektiv", "correct": false, "why": "Der Ressourceneinsatz war gering – das spricht für Effizienz." },
+      { "text": "Effizient und effektiv", "correct": false, "why": "Das Ziel wurde verfehlt." }
+    ],
+    "explanation": "**Effizienz** = „Dinge richtig tun“ (Output/Input) – erfüllt. **Effektivität** = „die richtigen Dinge tun“ (Ist/Ziel) – verfehlt. Effizienz ohne Effektivität ist wertlos."
+  },
+  {
+    "id": "mcq-privat-oeffentlich",
+    "type": "mcq",
+    "title": "Private oder öffentliche Unternehmen",
+    "difficulty": 2,
+    "prompt": "Welche der folgenden Einrichtungen sind nach den drei Prinzipien der Vorlesung **private Unternehmen**?",
+    "options": [
+      { "text": "Eine PV-Anlage auf dem Dach eines Unternehmens, deren Strom verkauft wird", "correct": true, "why": "Erwerbswirtschaftlich, autonom, Privateigentum – alle drei Prinzipien erfüllt." },
+      { "text": "Ein kommunales Wasserwerk", "correct": false, "why": "In der Regel kein Gewinnziel, keine Autonomie, kein Privateigentum." },
+      { "text": "Die OTH Regensburg", "correct": false, "why": "Öffentliche Hochschule – kein erwerbswirtschaftliches Prinzip, staatlich getragen." },
+      { "text": "Eine von zwei Studierenden gegründete Software-GmbH", "correct": true, "why": "Gewinnorientiert, selbstständig entscheidend, im Privateigentum." }
+    ],
+    "explanation": "Private Unternehmen erfüllen **alle drei** Prinzipien: erwerbswirtschaftliches Prinzip, Autonomieprinzip und Prinzip des Privateigentums."
+  },
+  {
+    "id": "cloze-umsatzprozess",
+    "type": "cloze",
+    "title": "Betrieblicher Umsatzprozess",
+    "difficulty": 1,
+    "prompt": "Ergänze die Lücken zum Umsatzprozess.",
+    "text": "Produktionsfaktoren werden auf dem {{Beschaffungsmarkt}} beschafft, im {{Transformationsprozess|Produktionsprozess|Transformation}} umgewandelt und als Halb- und Fertigfabrikate auf dem {{Absatzmarkt}} verkauft. Den Ausgaben bei der Beschaffung stehen die {{Einnahmen}} beim Absatz gegenüber. Zusätzliche Finanzmittel stammen vom {{Kredit- und Kapitalmarkt|Kapitalmarkt|Kreditmarkt}}.",
+    "explanation": "Güterstrom: Beschaffungsmarkt → Transformation → Absatzmarkt. Der Geldstrom läuft gegenläufig (Ausgaben ↔ Einnahmen), ergänzt durch den Kredit- und Kapitalmarkt."
+  },
+  {
+    "id": "recall-transaktionskosten",
+    "type": "recall",
+    "title": "Transaktionskostentheorie",
+    "difficulty": 2,
+    "prompt": "Erläutern Sie die **Transaktionskostentheorie**: Was sind Transaktionskosten, welche Arten gibt es, wovon hängt ihre Höhe ab und warum erklärt die Theorie die Existenz von Unternehmen? *(10 Punkte)*",
+    "modelAnswer": "**Transaktionskosten** sind Kosten, die nicht bei der Erstellung, sondern bei der **Übertragung von Gütern** zwischen Wirtschaftssubjekten entstehen – die Nutzung des Marktes ist nicht kostenlos.\n\n**Arten:** ex ante Anbahnungs- und Vereinbarungskosten; ex post Abwicklungs-, Anpassungs- und Kontrollkosten.\n\n**Höhe:** steigt mit Unsicherheit/Komplexität, Spezifität der Leistung, asymmetrischer Informationsverteilung und geringer Häufigkeit.\n\n**Existenz von Unternehmen:** Unternehmen entstehen, wenn sich Transaktionskosten durch Verlagerung der Transaktion **ins Unternehmen** senken lassen. Die Theorie hilft so bei der Wahl zwischen Kooperation, Integration und Outsourcing. Vertreter: Oliver E. Williamson (Neue Institutionenökonomie).",
+    "rubric": [
+      "Definition: Kosten der Übertragung (nicht der Erstellung) von Gütern",
+      "Mindestens 4 der 5 Kostenarten genannt",
+      "Mindestens 3 der 4 Einflussfaktoren genannt",
+      "Kernaussage: Unternehmen entstehen, wenn Verlagerung ins Unternehmen Transaktionskosten senkt",
+      "Bezug zu Make-or-buy (Kooperation/Integration/Outsourcing) oder Williamson"
+    ],
+    "explanation": "Die meisten Punkte bringen **Definition** und **Kernaussage**. Ein IT-Beispiel macht die Antwort stark: Eine hochspezifische Kernsoftware wird eher selbst entwickelt (Integration), Standardsoftware eingekauft (Markt)."
+  },
+  {
+    "id": "match-transaktionskostenarten",
+    "type": "match",
+    "title": "Transaktionskostenarten",
+    "difficulty": 2,
+    "prompt": "Ein Unternehmen lagert seine App-Entwicklung an eine Agentur aus. Ordne jede Tätigkeit der Transaktionskostenart zu.",
+    "pairs": [
+      { "left": "Recherche und Vergleich geeigneter Agenturen", "right": "Anbahnungskosten" },
+      { "left": "Verhandlung von Preis, Leistungsumfang und Vertragsstrafen", "right": "Vereinbarungskosten" },
+      { "left": "Wöchentliche Abstimmungsmeetings während der Umsetzung", "right": "Abwicklungskosten" },
+      { "left": "Nachverhandlung wegen geänderter Anforderungen", "right": "Anpassungskosten" },
+      { "left": "Code-Reviews und Abnahmetests der gelieferten Software", "right": "Kontrollkosten" }
+    ],
+    "explanation": "**Ex ante** (vor Vertragsschluss): Anbahnung, Vereinbarung. **Ex post** (danach): Abwicklung, Anpassung, Kontrolle."
+  },
+  {
+    "id": "order-problemloesungsprozess",
+    "type": "order",
+    "title": "Problemlösungsprozess",
+    "difficulty": 1,
+    "prompt": "Bringe die Schritte des **Problemlösungsprozesses** in die richtige Reihenfolge.",
+    "items": ["Analyse der Ausgangslage", "Ziele", "Maßnahmen", "Mittel", "Durchführung", "Evaluierung der Resultate"],
+    "explanation": "Erst verstehen (Ausgangslage), dann festlegen, *wohin* (Ziele), *wie* (Maßnahmen) und *womit* (Mittel); dann umsetzen und das Ergebnis evaluieren. Das Managementrad (Planung, Entscheidung, Aufgabenübertragung, Kontrolle) steuert diesen Prozess."
+  },
+  {
+    "id": "recall-problemloesung-schnelle-autos",
+    "type": "recall",
+    "title": "Fallbeispiel „Schnelle Autos“",
+    "difficulty": 2,
+    "prompt": "Die Fachzeitschrift **„Schnelle Autos“** verzeichnet seit zwei Jahren sinkende Verkaufszahlen. Spielen Sie den **Problemlösungsprozess** an diesem Fall durch. *(6 Punkte)*",
+    "modelAnswer": "1. **Analyse der Ausgangslage:** Auflage sinkt; Leser wandern zu Online-Medien ab, Werbekunden folgen.\n2. **Ziele:** Auflage innerhalb von 12 Monaten stabilisieren, digitale Abos aufbauen.\n3. **Maßnahmen:** digitale Ausgabe/App, Zielgruppe schärfen (z. B. E-Mobilität), Community-Angebote.\n4. **Mittel:** Budget, Redaktionsteam, App-Entwicklung.\n5. **Durchführung:** Launch der digitalen Ausgabe, Marketingkampagne.\n6. **Evaluierung:** Verkaufs-, Abo- und Nutzungszahlen mit dem Ziel vergleichen, ggf. nachsteuern.",
+    "rubric": [
+      "Alle 6 Schritte in richtiger Reihenfolge",
+      "Ausgangslage konkret analysiert (Ursache genannt)",
+      "Ziel messbar formuliert",
+      "Passende Maßnahmen und Mittel",
+      "Evaluierung bezieht sich auf das Ziel"
+    ],
+    "explanation": "Entscheidend ist, die Schritte **auf den Fall anzuwenden** statt sie nur aufzuzählen. Ein messbares Ziel macht die Evaluierung erst möglich (Soll-Ist-Vergleich)."
+  },
+  {
+    "id": "recall-krones-stakeholder",
+    "type": "recall",
+    "title": "Stakeholderkonflikt bei KRONES",
+    "difficulty": 2,
+    "prompt": "Am 30.10.2019 kündigte KRONES wegen hoher Material- und Personalkosten einen Sparkurs an (Investitionen gekürzt, Zukäufe zurückgestellt). Die **Aktie stieg um 9 %**.\n\nGrenzen Sie **Stakeholder** und **Shareholder** ab und erläutern Sie die widersprüchlichen Interessen in diesem Fall. *(6 Punkte)*",
+    "modelAnswer": "**Stakeholder** sind alle Personen/Institutionen mit Ansprüchen oder Erwartungen an das Unternehmen; **Shareholder** sind die Anteilseigner (Aktionäre) und damit eine Teilmenge der Stakeholder.\n\n**Gewinner:** Aktionäre/Analysten – der Sparkurs verspricht höhere Gewinne → Kurs +9 %.\n\n**Verlierer:** Mitarbeitende (Druck auf Personalkosten, evtl. Stellenabbau), Lieferanten (weniger Material- und Investitionsaufträge), Übernahmekandidaten (Zukäufe zurückgestellt).\n\n→ Eine Maßnahme kann für Shareholder positiv und für andere Stakeholder negativ sein.",
+    "rubric": [
+      "Stakeholder korrekt definiert (Anspruch/Erwartung)",
+      "Shareholder als Anteilseigner und Teilmenge der Stakeholder",
+      "Gewinner (Aktionäre) begründet",
+      "Mindestens zwei benachteiligte Stakeholdergruppen begründet"
+    ],
+    "explanation": "Der Fall zeigt den klassischen **Shareholder-vs.-Stakeholder-Konflikt**: Kostensenkungen steigern kurzfristig den Shareholder Value, gehen aber zulasten anderer Anspruchsgruppen."
+  },
+  {
+    "id": "recall-umweltgueter-frei",
+    "type": "recall",
+    "title": "Sind Umweltgüter freie Güter?",
+    "difficulty": 3,
+    "prompt": "Umschreiben Sie **freie Güter** und **knappe Güter**. Diskutieren Sie anschließend, ob Umweltgüter (z. B. saubere Luft, stabiles Klima) heute noch freie Güter sind. *(6 Punkte)*",
+    "modelAnswer": "- **Knappe Güter (Wirtschaftsgüter):** nur begrenzt verfügbar im Verhältnis zu den Bedürfnissen, haben einen Preis, Gegenstand des Wirtschaftens.\n- **Freie Güter:** im Überfluss vorhanden, kein Preis, keine Entscheidung über ihre Verwendung nötig (klassisch: Luft).\n\n**Diskussion:** Umweltgüter galten lange als frei. Durch Verschmutzung und Klimawandel sind *saubere* Luft und ein *stabiles* Klima aber faktisch knapp geworden. Weil sie keinen Marktpreis haben, werden sie übernutzt (vgl. Stiglitz: Der Markt produziert zu viel Umweltverschmutzung). Instrumente wie CO₂-Zertifikate machen Umweltgüter bewusst knapp und bepreisen sie → sie werden zu Wirtschaftsgütern.",
+    "rubric": [
+      "Knappe Güter korrekt umschrieben",
+      "Freie Güter korrekt umschrieben (Überfluss, kein Preis)",
+      "Begründete eigene Position zu Umweltgütern",
+      "Argument mit Bezug zu Knappheit/Bepreisung oder Marktversagen"
+    ],
+    "explanation": "Bei Diskussionsfragen zählt die **begründete Argumentation**, nicht eine bestimmte Meinung. Die Verbindung zu Stiglitz (Marktversagen) zeigt Transferleistung."
+  }
+]

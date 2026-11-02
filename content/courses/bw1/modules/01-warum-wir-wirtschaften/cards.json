@@ -1,0 +1,134 @@
+[
+  {
+    "id": "def-beduerfnis-bedarf",
+    "front": "Grenze **Bedürfnis**, **Bedarf** und **Nachfrage** voneinander ab.",
+    "back": "- **Bedürfnis:** Wunsch, Verlangen nach etwas (Mangelempfinden)\n- **Bedarf:** die Nachfrage nach etwas (konkretisiertes Bedürfnis)\n- **Nachfrage:** der am Markt **wirksam** werdende Bedarf",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-wirtschaft",
+    "front": "Definiere **Wirtschaft**.",
+    "back": "Gesamtheit der **Einrichtungen und Prozesse**, die direkt oder indirekt der Befriedigung menschlicher Bedürfnisse nach **knappen Gütern** dienen.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "vgl-beduerfnis-motiv",
+    "front": "Unterschied **Bedürfnis** vs. **Motiv** – mit Beispiel?",
+    "back": "- **Bedürfnis:** allgemeines Mangelempfinden (z. B. *Hunger*)\n- **Motiv:** zielgerichtet auf eine bestimmte Befriedigung (z. B. *Verlangen nach einem bestimmten Nahrungsmittel*)\n\nVerhalten wird durch **unbefriedigte** Bedürfnisse bestimmt."
+  },
+  {
+    "id": "liste-maslow",
+    "front": "Nenne die 5 Stufen der **Maslow-Pyramide** von unten nach oben und ordne primär/sekundär zu.",
+    "back": "1. Physiologische Bedürfnisse\n2. Sicherheitsbedürfnisse\n3. Soziale Bedürfnisse\n4. Wertschätzung\n5. Selbstverwirklichung\n\nStufen 1–2 = **primär**, 3–5 = **sekundär**.",
+    "hint": "Körper → Schutz → Gemeinschaft → Anerkennung → Ich"
+  },
+  {
+    "id": "warum-wirtschaften",
+    "front": "Warum müssen wir **wirtschaften**?",
+    "back": "Umfangreiche (unbegrenzte) **Bedürfnisse** treffen auf **begrenzt verfügbare Mittel**. Man muss entscheiden, *welche Bedürfnisse* befriedigt und *welche Mittel* verwendet werden → wirtschaftliche Entscheidungen = **Wirtschaften**."
+  },
+  {
+    "id": "def-gegenstand-bwl",
+    "front": "Was ist **Gegenstand der BWL**?",
+    "back": "Die Entscheidungsprobleme **kollektiver Akteure (= Unternehmen)**, die der Realisierung ihrer gegebenen **Zielsetzungen** dienen und typischerweise **arbeitsteilig** organisiert sind.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "liste-umwelt",
+    "front": "Über welche fünf Bereiche beeinflusst die **Umwelt** die Entscheidungen eines Unternehmens?",
+    "back": "Märkte, Umweltsphären, Stakeholder/Anspruchsgruppen, Issue-Management, Megatrends."
+  },
+  {
+    "id": "regeln-informationsstand",
+    "front": "Welche **Entscheidungsregeln** gehören zu **Sicherheit**, **Risiko** und **Ungewissheit**?",
+    "back": "- **Sicherheit:** lexikographische Regel (ohne Zielgewichtung), Nutzwertanalyse (mit Zielgewichtung)\n- **Risiko** (Wahrscheinlichkeiten bekannt): Erwartungswert-Regel = Bayes-Regel\n- **Ungewissheit** (Wahrscheinlichkeiten unbekannt): Laplace, Maximin, Maximax, Hurwicz"
+  },
+  {
+    "id": "regeln-ungewissheit",
+    "front": "Erkläre **Laplace**, **Maximin**, **Maximax** und **Hurwicz**.",
+    "back": "- **Laplace:** alle Umweltzustände gleich wahrscheinlich annehmen\n- **Maximin** (Pessimist): das beste der schlechtesten Ergebnisse wählen\n- **Maximax** (Optimist): das beste der besten Ergebnisse wählen\n- **Hurwicz** (Mischtyp): Mischung aus Maximin und Maximax"
+  },
+  {
+    "id": "def-wirtschaftsgueter",
+    "front": "Was sind **Wirtschaftsgüter**, was sind **freie Güter**?",
+    "back": "- **Wirtschaftsgüter** = **knappe** Güter, Gegenstand des wirtschaftlichen Handelns\n- **Freie Güter** = im Überfluss vorhanden, ohne Preis (z. B. Luft)\n\nProblem: Umweltgüter werden faktisch knapp – sind sie noch frei?"
+  },
+  {
+    "id": "taxonomie-gueter",
+    "front": "Gliedere die **Wirtschaftsgüter** (Taxonomie).",
+    "back": "- **Materielle Güter (Sachgüter)**\n  - Produktionsgüter: Potenzialfaktoren (Investitionsgüter), Repetierfaktoren (Roh-, Hilfs-, Betriebsstoffe)\n  - Konsumgüter: Gebrauchs- und Verbrauchsgüter\n- **Immaterielle Güter:** Dienstleistungen, Rechte"
+  },
+  {
+    "id": "def-produktionsfaktoren",
+    "front": "Welche **Produktionsfaktoren** unterscheidet die Vorlesung?",
+    "back": "**Potenzialfaktoren** + **Repetierfaktoren** (RHB) + **Arbeitsleistung** + **Informationen**.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "vgl-potenzial-repetier",
+    "front": "Unterschied **Potenzialfaktoren** vs. **Repetierfaktoren**?",
+    "back": "- **Potenzialfaktoren** (Investitionsgüter) geben ihr Leistungspotenzial über **viele Perioden** ab, z. B. Maschinen, Gebäude.\n- **Repetierfaktoren** (Werkstoffe: Roh-, Hilfs-, Betriebsstoffe) werden **verbraucht** bzw. gehen ins Produkt ein und müssen immer wieder neu beschafft werden."
+  },
+  {
+    "id": "gueter-verarbeitung-beziehung",
+    "front": "Einteilung der Güter nach **Verarbeitungsgrad** und **Beziehungsart**?",
+    "back": "- **Verarbeitungsgrad:** Teile → Baugruppe (Halb-/Zwischenfabrikat) → Endprodukt (Fertigfabrikat)\n- **Beziehungsart:** unverbundene Güter, **Substitutionsgüter** (Butter/Margarine), **Komplementärgüter** (Drucker/Toner)"
+  },
+  {
+    "id": "oekonomisches-prinzip",
+    "front": "Nenne die drei Formen des **ökonomischen Prinzips**.",
+    "back": "- **Maximalprinzip:** Input gegeben → maximaler Output\n- **Minimalprinzip:** Output gegeben → minimaler Input\n- **Optimalprinzip:** nichts gegeben → Input und Output unter vorgegebenen Kriterien bestmöglich abstimmen"
+  },
+  {
+    "id": "vgl-effizienz-effektivitaet",
+    "front": "Unterschied **Effizienz** vs. **Effektivität** (Formel + Leitfrage)?",
+    "back": "- **Effizienz** = Output / Input – „Werden die **Dinge richtig** gemacht?“ (Leistungsfähigkeit)\n- **Effektivität** = Ist / Ziel – „Werden die **richtigen Dinge** gemacht?“ (Leistungswirksamkeit, Zielerreichung)"
+  },
+  {
+    "id": "vgl-unternehmen-haushalt",
+    "front": "Unterschied **Unternehmen** vs. **Haushalt**?",
+    "back": "- **Unternehmen** (Produktionswirtschaften): **Fremdbedarfsdeckung**, produktionsorientiert\n- **Haushalte** (Konsumtionswirtschaften): **Eigenbedarfsdeckung**, konsumorientiert"
+  },
+  {
+    "id": "prinzipien-privater-unternehmen",
+    "front": "Durch welche drei Prinzipien sind **private Unternehmen** gekennzeichnet?",
+    "back": "1. Erwerbswirtschaftliches Prinzip\n2. Autonomieprinzip\n3. Prinzip des Privateigentums"
+  },
+  {
+    "id": "umsatzprozess-maerkte",
+    "front": "Welche **Märkte** berührt der betriebliche **Umsatzprozess**?",
+    "back": "- **Beschaffungsmarkt:** Produktionsfaktoren (Ausgaben, Aufwand/Kosten)\n- **Absatzmarkt:** Halb- und Fertigfabrikate (Einnahmen, Ertrag/Leistung)\n- **Kredit- und Kapitalmarkt:** Finanzmittel\n\nDazwischen: Transformationsprozess (Produktion)."
+  },
+  {
+    "id": "def-transaktionskosten",
+    "front": "Was sind **Transaktionskosten**?",
+    "back": "Kosten, die **nicht bei der Erstellung**, sondern bei der **Übertragung** von Gütern von einem Wirtschaftssubjekt zum anderen entstehen. Die Nutzung des Marktes ist nicht kostenlos.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "liste-transaktionskostenarten",
+    "front": "Nenne die 5 **Transaktionskostenarten** (ex ante / ex post).",
+    "back": "**Ex ante:** Anbahnungs-, Vereinbarungskosten\n**Ex post:** Abwicklungs-, Anpassungs-, Kontrollkosten",
+    "hint": "A – V – A – A – K"
+  },
+  {
+    "id": "transaktionskosten-hoch",
+    "front": "Wann sind **Transaktionskosten** besonders hoch?",
+    "back": "Je größer die **Unsicherheit/Komplexität**, je größer die **Spezifität** der Leistung, je **asymmetrischer** die Informationsverteilung und je **geringer** die **Häufigkeit** der Transaktion."
+  },
+  {
+    "id": "transaktionskosten-kernaussage",
+    "front": "Kernaussage der **Transaktionskostentheorie**: Warum gibt es Unternehmen? Wer ist ihr bekanntester Vertreter?",
+    "back": "Unternehmen entstehen, wenn sich **Transaktionskosten durch Verlagerung ins Unternehmen reduzieren** lassen. Vertreter: **Oliver E. Williamson** (Neue Institutionenökonomie, Nobelpreis 2009)."
+  },
+  {
+    "id": "liste-problemloesungsprozess",
+    "front": "Nenne die 6 Schritte des **Problemlösungsprozesses** und die Funktionen des **Managementrads**.",
+    "back": "**Problemlösungsprozess:** 1. Analyse der Ausgangslage, 2. Ziele, 3. Maßnahmen, 4. Mittel, 5. Durchführung, 6. Evaluierung der Resultate\n\n**Managementrad:** Planung, Entscheidung, Aufgabenübertragung, Kontrolle (im Zentrum: Führung)"
+  },
+  {
+    "id": "vgl-stakeholder-shareholder",
+    "front": "Unterschied **Stakeholder** vs. **Shareholder**?",
+    "back": "- **Stakeholder** (*stake* = Anspruch): alle Personen/Institutionen mit **Erwartungen/Ansprüchen** an das Unternehmen (Anspruchsgruppen)\n- **Shareholder** (*share* = Anteil): **Anteilseigner**, z. B. Aktionäre\n\nShareholder sind eine **Teilmenge** der Stakeholder."
+  }
+]

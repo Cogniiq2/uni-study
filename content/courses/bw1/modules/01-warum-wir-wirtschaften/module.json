@@ -1,0 +1,19 @@
+{
+  "id": "warum-wir-wirtschaften",
+  "order": 1,
+  "title": "Warum wir wirtschaften",
+  "summary": "Von Bedürfnissen und Knappheit zu Entscheidungen: Gegenstand der BWL, Entscheidungsregeln, Wirtschaftsgüter, ökonomisches Prinzip, Transaktionskosten und Stakeholder.",
+  "learningGoals": [
+    "Bedürfnis, Motiv, Bedarf und Wirtschaft präzise abgrenzen und die Maslow-Pyramide wiedergeben",
+    "Erklären, warum Knappheit Wirtschaften (= Entscheiden) erzwingt und was Gegenstand der BWL ist",
+    "Die passende Entscheidungsregel für Sicherheit, Risiko und Ungewissheit wählen und anwenden",
+    "Wirtschaftsgüter und Produktionsfaktoren systematisch einordnen",
+    "Maximal-, Minimal- und Optimalprinzip sowie Effizienz und Effektivität unterscheiden",
+    "Den betrieblichen Umsatzprozess mit seinen drei Märkten beschreiben",
+    "Mit der Transaktionskostentheorie begründen, warum es Unternehmen gibt",
+    "Problemlösungsprozess, Managementrad sowie Stakeholder und Shareholder erklären"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "BW1 Grundlagen – Teil 1: Warum wir wirtschaften (Raschkowski/Gruber, WS 26/27)", "pages": "1-46" }],
+  "status": "complete"
+}
