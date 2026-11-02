@@ -113,6 +113,9 @@ body {
   quotes: none;
 }
 .callout > p:first-of-type::before { content: none; }
+.callout > :last-child {
+  margin-bottom: 0;
+}
 .callout-title {
   @apply mb-1 text-xs font-semibold tracking-wider uppercase;
 }
