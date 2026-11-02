@@ -1,0 +1,92 @@
+[
+  {
+    "id": "warum-im",
+    "front": "Warum ist Information eine **knappe Ressource**, die gemanagt werden muss (Laudon/Laudon)?",
+    "back": "Sie dient zur **Vorbereitung von Entscheidungen** (Prognosen), als **Basis für Innovationen** und ist **essenziell im organisatorischen Prozess** des Wirtschaftens (Koordination) → zentral für die Leistungserstellung."
+  },
+  {
+    "id": "dikw",
+    "front": "Erkläre die **DIKW-Hierarchie** (mit Labels).",
+    "back": "- **Daten** – know nothing (Symbole)\n- **Information** – know what (wer, was, wo, wann)\n- **Wissen** – know how (wie)\n- **Weisheit** – know why (warum)\n\nUnten algorithmisch/programmierbar, oben nicht."
+  },
+  {
+    "id": "def-daten-din",
+    "front": "Definiere **Daten** nach **DIN 44300**.",
+    "back": "Gebilde aus **Zeichen** oder kontinuierlichen Funktionen, die aufgrund bekannter oder unterstellter **Abmachungen** Informationen darstellen, vorrangig zum Zweck der Verarbeitung und als deren Ergebnis.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-daten-iso",
+    "front": "Wie definiert **ISO/IEC 2382-1** Daten?",
+    "back": "„A **reinterpretable representation** of information in a **formalized manner**, suitable for communication, interpretation, or processing.“",
+    "tags": ["definition"]
+  },
+  {
+    "id": "def-information-wittmann",
+    "front": "Betriebswirtschaftliche Definition von **Information** (mit Quelle)?",
+    "back": "**„Information ist zweckbezogenes Wissen.“** (Wittmann 1959)",
+    "tags": ["definition"]
+  },
+  {
+    "id": "information-seiffert-gitt",
+    "front": "Wie definieren **Seiffert** und **Gitt** Information?",
+    "back": "- **Seiffert 1971** (allgemeinsprachlich): gegenwarts- und praxisbezogene Mitteilung über Dinge, die uns im Augenblick zu wissen wichtig sind\n- **Gitt 1989** (nachrichtenorientiert): die **Unsicherheit**, die durch das Erscheinen eines Zeichens **beseitigt** wird"
+  },
+  {
+    "id": "vierter-produktionsfaktor",
+    "front": "Wer erweiterte die klassischen Produktionsfaktoren um **Information**, und welche sind die klassischen?",
+    "back": "**Zimmermann (1972)**: Arbeit, Boden, Kapital + **Information** als vierter Produktionsfaktor."
+  },
+  {
+    "id": "def-wissen-probst",
+    "front": "Definiere **Wissen** nach **Probst/Raub/Romhardt**.",
+    "back": "Gesamtheit der **Kenntnisse und Fähigkeiten**, die Individuen zur **Lösung von Problemen** einsetzen (Theorie und praktische Alltagsregeln). Stützt sich auf Daten und Informationen, ist aber **immer an Personen gebunden**.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "wissensarten",
+    "front": "Welche **Wissensarten** werden unterschieden?",
+    "back": "- **implizit** (unbewusst, nicht formalisierbar) vs. **explizit** (speicher- und kommunizierbar)\n- **individuell** vs. **kollektiv**\n- **intern** vs. **extern**"
+  },
+  {
+    "id": "anreicherungsprozess",
+    "front": "Beschreibe den **Anreicherungsprozess** vom Zeichen zum Wissen.",
+    "back": "Zeichen → (**Syntax**) → Daten → (**Kontext/Semantik**) → Information → (**Vernetzung/Pragmatik**) → Wissen.\n\nDaten–Information–Wissen bilden ein **Kontinuum** (Entwicklungsprozess, kein Sprung)."
+  },
+  {
+    "id": "def-informationsparadoxon",
+    "front": "Was ist das **Informationsparadoxon**?",
+    "back": "**Vor** der Nutzung kann die Qualität einer Information nicht beurteilt werden; **nach** dem Konsum besteht keine Zahlungsbereitschaft mehr.",
+    "tags": ["definition"]
+  },
+  {
+    "id": "erfahrungsgut-strategien",
+    "front": "Was ist ein **Erfahrungsgut**, und welche Strategien überwinden die Kaufzurückhaltung?",
+    "back": "Wert erst durch **Erfahren/Nutzen** einschätzbar.\n\nStrategien: **Content Browsing, Previews, Reviews und Ratings, Reputationsaufbau**."
+  },
+  {
+    "id": "eigenschaften-informationsgueter",
+    "front": "Welche Eigenschaften kennzeichnen **Informationsgüter**?",
+    "back": "**Immaterialität** (kein Gewicht, Lichtgeschwindigkeit, globaler Markt, quasi beliebig kopierbar, geringe Transportkosten) · **Informationsparadoxon** · **Erfahrungsgut** (nicht besichtigbar, Gut und Beschreibung untrennbar)"
+  },
+  {
+    "id": "vgl-materiell-information",
+    "front": "Nenne **vier Unterschiede** zwischen materiellen Gütern und Informationen.",
+    "back": "| Materiell | Information |\n|---|---|\n| hohe Vervielfältigungskosten | niedrige |\n| Wertverlust durch Gebrauch | Wertgewinn |\n| Wertverlust durch Teilung | Wertgewinn |\n| schwierige Verbreitung | einfache |\n| Preisbildung bekannt | weitgehend unbekannt |"
+  },
+  {
+    "id": "datenchaos",
+    "front": "Nenne Symptome von **Datenchaos** (Jung 2003).",
+    "back": "Daten verstreut · nicht vergleichbar (Formate, Währungen, Definitionen) · kein zentraler Ort für externe Daten · Zugriff eingeschränkt · schwierige Extraktion · Extraktion nur durch SQL-Kenner"
+  },
+  {
+    "id": "aws-funktionen",
+    "front": "Welche drei **Funktionen** hat ein Anwendungssystem (Laudon et al.)?",
+    "back": "**Eingabe → Verarbeitung → Ausgabe**"
+  },
+  {
+    "id": "def-management",
+    "front": "Was ist **Management** nach **Ansoff (1966)** und **Wild (1971)**?",
+    "back": "- **Ansoff:** komplexe Aufgabe aus **Analysieren, Entscheiden, Bewerten, Kontrollieren**\n- **Wild:** **Verarbeitung von Informationen** zur zielorientierten **Steuerung von Menschen und Prozessen**\n\nMehrdeutig: Funktion (Führen) vs. Institution (Personengruppe)."
+  }
+]

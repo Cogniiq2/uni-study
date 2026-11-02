@@ -1,0 +1,18 @@
+{
+  "id": "daten-information-wissen",
+  "order": 3,
+  "title": "Informationsmanagement I: Daten, Information, Wissen",
+  "summary": "Warum Informationsmanagement? Die DIKW-Hierarchie, Definitionen von Daten, Information und Wissen, Eigenschaften von Informationsgütern und der Managementbegriff.",
+  "learningGoals": [
+    "Begründen, warum Information eine knappe Ressource ist, die gemanagt werden muss",
+    "Die DIKW-Hierarchie erklären",
+    "Daten, Information und Wissen jeweils mit Quelle definieren und abgrenzen",
+    "Besondere Eigenschaften von Informationsgütern erklären (Informationsparadoxon, Erfahrungsgut) und Gegenstrategien nennen",
+    "Informationen und materielle Güter vergleichen",
+    "Wissensarten unterscheiden und den Anreicherungsprozess beschreiben",
+    "Management nach Ansoff und Wild definieren"
+  ],
+  "examWeight": 3,
+  "sources": [{ "file": "GWI VL 04 – Informationsmanagement I: Daten, Information, Wissen (Zellner, WS 26/27)" }],
+  "status": "complete"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "order-dikw",
+    "type": "order",
+    "title": "DIKW-Hierarchie",
+    "difficulty": 1,
+    "prompt": "Ordne die Stufen der DIKW-Hierarchie von **unten nach oben**.",
+    "items": ["Daten – know nothing", "Information – know what", "Wissen – know how", "Weisheit – know why"],
+    "explanation": "Daten (Symbole) → Information (wer/was/wo/wann) → Wissen (wie) → Weisheit (warum). Die unteren beiden Stufen sind programmierbar, die oberen nicht."
+  },
+  {
+    "id": "match-dikw-beispiele",
+    "type": "match",
+    "title": "DIKW an einem Beispiel",
+    "difficulty": 2,
+    "prompt": "Ein Online-Shop wertet sein Sortiment aus. Ordne jede Aussage der passenden DIKW-Stufe zu.",
+    "pairs": [
+      { "left": "„4711; 23; 2026-11-02“", "right": "Daten" },
+      { "left": "„Von Artikel 4711 wurden am 02.11. 23 Stück verkauft.“", "right": "Information" },
+      { "left": "„Wenn wir Artikel 4711 im Newsletter zeigen, verdoppelt sich der Absatz.“", "right": "Wissen" },
+      { "left": "„Wir sollten nur bewerben, was Kunden wirklich nützt – sonst verlieren wir Vertrauen.“", "right": "Weisheit" }
+    ],
+    "explanation": "**Daten** = bloße Symbole ohne Kontext. **Information** = Daten mit Bedeutung (wer/was/wann). **Wissen** = Anwendungszusammenhang (wie wirkt was). **Weisheit** = Urteil über richtig/falsch (warum)."
+  },
+  {
+    "id": "recall-daten-information-wissen",
+    "type": "recall",
+    "title": "Daten, Information, Wissen definieren",
+    "difficulty": 2,
+    "prompt": "Definieren Sie **Daten**, **Information** und **Wissen** jeweils mit Quelle und erläutern Sie ihren Zusammenhang. *(8 Punkte)*",
+    "modelAnswer": "- **Daten (DIN 44300):** Gebilde aus Zeichen oder kontinuierlichen Funktionen, die aufgrund bekannter oder unterstellter Abmachungen Informationen darstellen, vorrangig zur Verarbeitung.\n- **Information (Wittmann 1959):** zweckbezogenes Wissen.\n- **Wissen (Probst/Raub/Romhardt 2012):** Gesamtheit der Kenntnisse und Fähigkeiten, die Individuen zur Problemlösung einsetzen; stützt sich auf Daten und Informationen, ist aber immer an Personen gebunden.\n\n**Zusammenhang:** Anreicherungsprozess Zeichen → (Syntax) → Daten → (Semantik/Kontext) → Information → (Pragmatik/Vernetzung) → Wissen. Die Übergänge bilden ein **Kontinuum** (DIKW: know nothing → know what → know how).",
+    "rubric": [
+      "Daten korrekt definiert (Zeichen + Abmachung), Quelle DIN 44300 oder ISO",
+      "Information = zweckbezogenes Wissen (Wittmann)",
+      "Wissen korrekt, personengebunden (Probst et al.)",
+      "Zusammenhang: Anreicherungsprozess oder DIKW/Kontinuum"
+    ],
+    "explanation": "Die **Quellen** bringen hier eigene Punkte. Merke die Paare: **DIN 44300 – Daten**, **Wittmann – Information**, **Probst – Wissen**."
+  },
+  {
+    "id": "match-definitionen-quellen",
+    "type": "match",
+    "title": "Wer definiert was?",
+    "difficulty": 2,
+    "prompt": "Ordne jeder Definition ihre Quelle zu.",
+    "pairs": [
+      { "left": "Information ist zweckbezogenes Wissen", "right": "Wittmann 1959" },
+      { "left": "Gebilde aus Zeichen, die aufgrund von Abmachungen Informationen darstellen", "right": "DIN 44300" },
+      { "left": "Gesamtheit der Kenntnisse und Fähigkeiten zur Problemlösung, personengebunden", "right": "Probst/Raub/Romhardt 2012" },
+      { "left": "Die Unsicherheit, die durch das Erscheinen eines Zeichens beseitigt wird", "right": "Gitt 1989" },
+      { "left": "Analysieren, Entscheiden, Bewerten, Kontrollieren", "right": "Ansoff 1966" },
+      { "left": "Information als vierter Produktionsfaktor", "right": "Zimmermann 1972" }
+    ],
+    "explanation": "In GWI zählen **Definition + Quelle** zusammen. Lerne die Quellen als feste Paare."
+  },
+  {
+    "id": "mcq-informationsparadoxon",
+    "type": "mcq",
+    "title": "Informationsparadoxon",
+    "difficulty": 1,
+    "prompt": "Was beschreibt das **Informationsparadoxon**?",
+    "options": [
+      { "text": "Vor der Nutzung ist die Qualität nicht beurteilbar, nach dem Konsum fehlt die Zahlungsbereitschaft.", "correct": true },
+      { "text": "Je mehr Informationen vorliegen, desto schlechter werden Entscheidungen.", "correct": false, "why": "Das beschreibt eher Informationsüberflutung, nicht das Paradoxon." },
+      { "text": "Informationen verlieren durch Teilung an Wert.", "correct": false, "why": "Im Gegenteil – Informationen gewinnen oft durch Teilung an Wert." },
+      { "text": "Informationen lassen sich nicht digital speichern.", "correct": false, "why": "Informationen sind quasi beliebig kopier- und speicherbar." }
+    ],
+    "explanation": "Deshalb nutzen Anbieter **Previews, Content Browsing, Reviews/Ratings und Reputation**: Der Kunde soll Qualität einschätzen können, ohne die Information schon vollständig zu besitzen."
+  },
+  {
+    "id": "match-erfahrungsgut-strategien",
+    "type": "match",
+    "title": "Strategien für Erfahrungsgüter",
+    "difficulty": 1,
+    "prompt": "Welche Strategie gegen die Kaufzurückhaltung bei Informationsgütern wird genutzt?",
+    "pairs": [
+      { "left": "Spotify spielt 30 Sekunden eines Songs kostenlos ab", "right": "Preview" },
+      { "left": "Ein E-Book-Shop lässt die ersten Seiten durchblättern", "right": "Content Browsing" },
+      { "left": "Eine Online-Kursplattform zeigt 4,7 Sterne aus 12.000 Bewertungen", "right": "Reviews und Ratings" },
+      { "left": "Leser zahlen für die FAZ, weil sie der Marke vertrauen", "right": "Reputationsaufbau" }
+    ],
+    "explanation": "Alle vier Strategien machen die Qualität **vor dem Kauf** einschätzbar und lösen so das Informationsparadoxon auf."
+  },
+  {
+    "id": "recall-materiell-vs-information",
+    "type": "recall",
+    "title": "Materielle Güter vs. Informationen",
+    "difficulty": 2,
+    "prompt": "Vergleichen Sie **materielle Güter** und **Informationen** als Wirtschaftsgüter anhand von vier Kriterien. Erläutern Sie ein Kriterium an einem Beispiel. *(6 Punkte)*",
+    "modelAnswer": "| Kriterium | Materielle Güter | Informationen |\n|---|---|---|\n| Vervielfältigungskosten | hoch | niedrig |\n| Gebrauch | Wertverlust | Wertgewinn |\n| Teilung | Wertverlust | Wertgewinn |\n| Verbreitung | schwierig | einfach |\n| Preisbildung | bekannt | weitgehend unbekannt |\n\n**Beispiel Teilung:** Ein geteiltes Auto nutzt sich ab und verliert an Wert; eine unternehmensweite Wissensdatenbank wird wertvoller, je mehr Mitarbeitende sie nutzen und ergänzen.",
+    "rubric": ["Kriterium 1 korrekt gegenübergestellt", "Kriterium 2 korrekt gegenübergestellt", "Kriterium 3 korrekt gegenübergestellt", "Kriterium 4 korrekt gegenübergestellt", "Passendes Beispiel"],
+    "explanation": "Die **Wertgewinne durch Gebrauch und Teilung** sind die überraschendsten und daher am häufigsten gefragten Unterschiede."
+  },
+  {
+    "id": "mcq-wissensarten",
+    "type": "mcq",
+    "title": "Implizites Wissen",
+    "difficulty": 1,
+    "prompt": "Welches Beispiel beschreibt **implizites** Wissen?",
+    "options": [
+      { "text": "Eine erfahrene Vertrieblerin spürt in Verhandlungen, wann sie nachgeben muss, kann es aber nicht in Regeln fassen.", "correct": true },
+      { "text": "Eine dokumentierte Schritt-für-Schritt-Anleitung im Wiki", "correct": false, "why": "Dokumentiert und weitergebbar = explizit." },
+      { "text": "Eine Datenbanktabelle mit Kundenadressen", "correct": false, "why": "Das sind Daten, kein Wissen." },
+      { "text": "Ein Handbuch zur Bedienung der Buchhaltungssoftware", "correct": false, "why": "Formalisiert und speicherbar = explizit." }
+    ],
+    "explanation": "**Implizit** = unbewusst, nicht formalisierbar (Erfahrung, Intuition). **Explizit** = speicherbar und kommunizierbar (Dokumente, Handbücher). Weitere Dimensionen: individuell/kollektiv, intern/extern."
+  },
+  {
+    "id": "order-anreicherungsprozess",
+    "type": "order",
+    "title": "Anreicherungsprozess",
+    "difficulty": 2,
+    "prompt": "Bringe die Elemente des **Anreicherungsprozesses** nach Probst et al. in die richtige Reihenfolge.",
+    "items": ["Zeichen", "Syntax", "Daten", "Kontext / Semantik", "Information", "Vernetzung / Pragmatik", "Wissen"],
+    "explanation": "Zeichen werden durch **Syntax** zu Daten, durch **Kontext (Semantik)** zu Information und durch **Vernetzung (Pragmatik)** zu Wissen. Der Übergang ist ein **Kontinuum**."
+  },
+  {
+    "id": "mcq-datenchaos",
+    "type": "mcq",
+    "title": "Symptome von Datenchaos",
+    "difficulty": 1,
+    "prompt": "Welche Symptome nennt Jung (2003) für **Datenchaos** im Unternehmen?",
+    "options": [
+      { "text": "Daten liegen verstreut in diversen Datenbanken.", "correct": true },
+      { "text": "Daten sind nicht vergleichbar (Datumsformate, Währungen, Definitionen).", "correct": true },
+      { "text": "Nur wenige SQL-Kenner können Daten extrahieren.", "correct": true },
+      { "text": "Alle Daten liegen in einem zentralen Data Warehouse.", "correct": false, "why": "Das wäre gerade die Lösung, nicht das Symptom." },
+      { "text": "Jede Abteilung hat jederzeit Zugriff auf alle Daten.", "correct": false, "why": "Beim Datenchaos ist der Zugriff nur bedingt möglich." }
+    ],
+    "explanation": "Datenchaos entsteht durch historisch gewachsenen **„Wildwuchs“** an Anwendungssystemen mit vielen Schnittstellen. Folge: Daten sind vorhanden, aber nicht nutzbar."
+  },
+  {
+    "id": "cloze-management",
+    "type": "cloze",
+    "title": "Managementbegriff",
+    "difficulty": 2,
+    "prompt": "Ergänze die Definitionen.",
+    "text": "Nach Ansoff (1966) umfasst Management: Analysen durchführen, {{Entscheidungen}} treffen, Bewertungen vornehmen und {{Kontrollen}} durchführen. Nach Wild (1971) ist Management die Verarbeitung von {{Informationen}} zur zielorientierten {{Steuerung}} von Menschen und Prozessen. Funktional bedeutet Management das Führen; institutionell die {{Personengruppe|Personen}}, die führt.",
+    "explanation": "Wilds Definition verbindet Management direkt mit Information – daraus folgt in VL 05 der Begriff **Informationsmanagement**."
+  },
+  {
+    "id": "recall-warum-im",
+    "type": "recall",
+    "title": "Warum Informationsmanagement?",
+    "difficulty": 2,
+    "prompt": "Begründen Sie, warum Unternehmen **Information** als Ressource aktiv **managen** sollten. Gehen Sie auf die Rolle von Information, ihre besonderen Eigenschaften und das Problem des Datenchaos ein. *(6 Punkte)*",
+    "modelAnswer": "- **Rolle:** Information ist eine wichtige und **knappe Ressource**: Sie bereitet Entscheidungen vor (Prognosen), ist Basis für Innovationen und essenziell für die Koordination im Unternehmen (Laudon/Laudon). Zimmermann sieht sie als **vierten Produktionsfaktor**.\n- **Besondere Eigenschaften:** Information ist immateriell, quasi kostenlos kopierbar und gewinnt durch Gebrauch und Teilung an Wert. Diese Potenziale entstehen aber nur, wenn Informationen gezielt verfügbar gemacht werden.\n- **Datenchaos:** Ohne Management liegen Daten verstreut, sind nicht vergleichbar und schwer extrahierbar (Jung 2003). Daten sind Rohmaterial für Entscheidungen, bleiben aber ungenutzt.\n\n→ IM muss sicherstellen, dass die richtige Information zur richtigen Zeit am richtigen Ort ist.",
+    "rubric": [
+      "Information als knappe Ressource (Entscheidung, Innovation, Koordination)",
+      "Vierter Produktionsfaktor oder Wert durch Teilung/Gebrauch",
+      "Datenchaos als Problem beschrieben",
+      "Schlussfolgerung: gezielte Bereitstellung nötig"
+    ],
+    "explanation": "Eine gute Antwort verbindet **mehrere Teile der Vorlesung** zu einem Argument. Das ist typisch für die höheren Punktzahlen in der Klausur."
+  }
+]
